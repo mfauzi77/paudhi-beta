@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: paudhi-backend
+    env: node
+    plan: free
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: PORT
+        value: 5000
+      - key: MONGODB_URI
+        value: mongodb+srv://username:password@cluster.mongodb.net/paudhi
+      - key: JWT_SECRET
+        value: rahasiasekali123
+      - key: CLIENT_URL
+        value: https://paudhi.vercel.app
+      - key: UPLOAD_DIR
+        value: uploads/

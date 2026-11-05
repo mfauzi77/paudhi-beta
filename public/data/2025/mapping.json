@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "collectionYear": 2025,
+  "title": "Mapping Dataset CERIA 2025 terhadap Matriks Kebutuhan Data",
+  "statusDefinitions": {
+    "available": "Indikator inti tersedia sesuai tabel pengguna; bukan berarti sumber telah diverifikasi atau sudah terhubung.",
+    "partial": "Sebagian kebutuhan atau rincian dalam matriks belum tersedia atau berbeda definisi.",
+    "missing": "Belum ada dataset 2025 yang diberikan."
+  },
+  "rules": [
+    "Nama instansi/platform mengikuti matriks pengguna, bukan bukti koneksi API atau asal data yang terverifikasi.",
+    "Tahun pada nama folder adalah tahun pengumpulan yang dituju; periksa yearBasis setiap dataset sebelum analisis.",
+    "Nilai null berarti tidak tersedia, bukan nol. Pertahankan nol yang diberikan pengguna.",
+    "Gunakan angka nasional yang diberikan. Jika national null, jangan mengklaim angka nasional resmi.",
+    "Pertahankan footnotes dan missingValues setiap dataset.",
+    "Kemiskinan Maret dan September adalah periode terpisah; tahunan tidak diisi rata-rata semester.",
+    "Jumlah korban tidak boleh diberi label jumlah kasus; tabel partisipasi lama tidak boleh disamakan dengan APK/APM 2025/2026.",
+    "proposedDomain menentukan penyaringan bidang pada dashboard 2025; halaman lain tetap memakai alur sebelumnya.",
+    "Data di luar matriks, termasuk Pengasuhan, belum ditambahkan untuk 2025."
+  ],
+  "entries": [
+    {
+      "order": 1,
+      "id": "imunisasi",
+      "institutionAsInMatrix": "Kementerian Kesehatan (Kemenkes)",
+      "platformAsInMatrix": "SatuSehat",
+      "requirement": "Imunisasi (IDL per desa/kecamatan)",
+      "datasetUrl": "/data/2025/imunisasi_idl.json",
+      "proposedDomain": "Kesehatan & Gizi",
+      "fieldPaths": [
+        "perkotaan",
+        "perdesaan",
+        "total"
+      ],
+      "status": "partial",
+      "available": "IDL tingkat provinsi menurut perkotaan/perdesaan",
+      "notes": "Rincian desa/kecamatan belum tersedia; 2 nilai kosong.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 2,
+      "id": "gizi",
+      "institutionAsInMatrix": "Kementerian Kesehatan (Kemenkes)",
+      "platformAsInMatrix": "SatuSehat",
+      "requirement": "Gizi (stunting, wasting, underweight)",
+      "datasetUrl": "/data/2025/gizi.json",
+      "proposedDomain": "Kesehatan & Gizi",
+      "fieldPaths": [
+        "stunting",
+        "wasting",
+        "underweight"
+      ],
+      "status": "available",
+      "available": "Stunting, wasting, underweight",
+      "notes": "Keterangan tanda * pada 2 nilai stunting belum tersedia.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 3,
+      "id": "kia",
+      "institutionAsInMatrix": "Kementerian Kesehatan (Kemenkes)",
+      "platformAsInMatrix": "SatuSehat",
+      "requirement": "KIA (Kunjungan Antenatal K4, persalinan, AKB & AKI)",
+      "datasetUrl": "/data/2025/kia.json",
+      "proposedDomain": "Kesehatan & Gizi",
+      "fieldPaths": [
+        "kunjungan_k4"
+      ],
+      "status": "partial",
+      "available": "Kunjungan K4",
+      "notes": "Persalinan, AKB, AKI belum tersedia; K4 di 2 provinsi kosong.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 4,
+      "id": "penyakit",
+      "institutionAsInMatrix": "Kementerian Kesehatan (Kemenkes)",
+      "platformAsInMatrix": "SatuSehat",
+      "requirement": "Penyakit (diare & ISPA balita)",
+      "datasetUrl": "/data/2025/penyakit.json",
+      "proposedDomain": "Kesehatan & Gizi",
+      "fieldPaths": [
+        "ispa_gejala",
+        "diare_gejala"
+      ],
+      "status": "available",
+      "available": "ISPA (Gejala), Diare (Gejala)",
+      "notes": "Pertahankan definisi berbasis gejala.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 5,
+      "id": "partisipasi_paud",
+      "institutionAsInMatrix": "Kemendikbudristek",
+      "platformAsInMatrix": "Dapodik",
+      "requirement": "Partisipasi PAUD (APM & APK)",
+      "datasetUrl": "/data/2025/apk_apm_pendidikan.json",
+      "proposedDomain": "Pendidikan",
+      "fieldPaths": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "status": "available",
+      "available": "APK dan APM PAUD, tahun ajaran 2025/2026; SD–SMA/SM disimpan sebagai data pendukung",
+      "notes": "Referensi [5] dan kelompok usia belum tersedia. APM PAUD > APK PAUD pada sejumlah baris perlu verifikasi. Tidak dipakai dalam skor risiko/forecasting. Tabel partisipasi lama disimpan terpisah, tidak dianggap ukuran yang sama.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references",
+      "previousDatasetUrl": "/data/2025/partisipasi_paud.json",
+      "supportingFieldPaths": [
+        "apk_sd",
+        "apm_sd",
+        "apk_smp",
+        "apm_smp",
+        "apk_sma_sm",
+        "apm_sma_sm"
+      ],
+      "academicYear": "2025/2026"
+    },
+    {
+      "order": 6,
+      "id": "satuan_paud",
+      "institutionAsInMatrix": "Kemendikbudristek",
+      "platformAsInMatrix": "Dapodik",
+      "requirement": "Satuan PAUD (jumlah lembaga, status akreditasi, rasio guru-murid)",
+      "datasetUrl": "/data/2025/satuan_paud.json",
+      "proposedDomain": "Pendidikan",
+      "fieldPaths": [
+        "tk_sederajat",
+        "kb_sederajat",
+        "tpa",
+        "sps"
+      ],
+      "status": "partial",
+      "available": "Jumlah TK sederajat, KB sederajat, TPA, SPS",
+      "notes": "Akreditasi dan rasio guru-murid belum tersedia; Luar Negeri terpisah.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 7,
+      "id": "kualifikasi_guru",
+      "institutionAsInMatrix": "Kemendikbudristek",
+      "platformAsInMatrix": "Dapodik",
+      "requirement": "Kualitas Guru (kualifikasi akademik guru PAUD)",
+      "datasetUrl": "/data/2025/kualifikasi_guru_paud.json",
+      "proposedDomain": "Pendidikan",
+      "fieldPaths": [
+        "layak_min_s1"
+      ],
+      "status": "available",
+      "available": "Persentase Layak (≥ S1)",
+      "notes": "Jumlah guru tidak diberikan; label ≥ S1 dipertahankan.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 8,
+      "id": "identitas_anak",
+      "institutionAsInMatrix": "Kemendagri",
+      "platformAsInMatrix": "API Kependudukan Dukcapil",
+      "requirement": "Identitas Anak (persentase kepemilikan Akta Kelahiran)",
+      "datasetUrl": "/data/2025/akta_kelahiran.json",
+      "proposedDomain": "Perlindungan",
+      "fieldPaths": [
+        "perkotaan",
+        "perdesaan",
+        "total"
+      ],
+      "status": "available",
+      "available": "Kepemilikan akta, perkotaan/perdesaan/total",
+      "notes": "Perdesaan DKI Jakarta kosong; batas usia belum tersedia.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 9,
+      "id": "kekerasan_anak",
+      "institutionAsInMatrix": "KemenPPPA",
+      "platformAsInMatrix": "SIMFONI PPA",
+      "requirement": "Kasus Kekerasan (laporan kasus kekerasan terhadap anak)",
+      "datasetUrl": "/data/2025/kekerasan_anak.json",
+      "proposedDomain": "Perlindungan",
+      "fieldPaths": [
+        "korban"
+      ],
+      "status": "partial",
+      "available": "Jumlah korban kekerasan terhadap anak",
+      "notes": "Korban tidak sama dengan kasus; jumlah kasus belum diberikan.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 10,
+      "id": "sosial_ekonomi",
+      "institutionAsInMatrix": "BPS",
+      "platformAsInMatrix": "BPS Open Data",
+      "requirement": "Sosial-Ekonomi (kemiskinan & IPM)",
+      "datasetUrl": "/data/2025/kemiskinan.json",
+      "proposedDomain": "Kesejahteraan Sosial",
+      "fieldPaths": [
+        "perkotaan.maret",
+        "perkotaan.september",
+        "perdesaan.maret",
+        "perdesaan.september",
+        "total.maret",
+        "total.september"
+      ],
+      "status": "partial",
+      "available": "Kemiskinan Maret dan September 2025",
+      "notes": "IPM belum tersedia; tahunan kosong; satuan persen masih berdasarkan konteks.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 11,
+      "id": "perkawinan_anak",
+      "institutionAsInMatrix": "BPS",
+      "platformAsInMatrix": "BPS Open Data",
+      "requirement": "Perkawinan Anak",
+      "datasetUrl": "/data/2025/perkawinan_anak.json",
+      "proposedDomain": "Perlindungan",
+      "fieldPaths": [
+        "perkawinan_anak"
+      ],
+      "status": "available",
+      "available": "Persentase perkawinan anak",
+      "notes": "Definisi indikator dan kelompok usia belum tersedia.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 12,
+      "id": "pkh",
+      "institutionAsInMatrix": "Kemensos",
+      "platformAsInMatrix": "Kemensos API",
+      "requirement": "Bantuan Sosial (data keluarga penerima manfaat, PKH)",
+      "datasetUrl": "/data/2025/pkh.json",
+      "proposedDomain": "Kesejahteraan Sosial",
+      "fieldPaths": [
+        "perkotaan",
+        "perdesaan",
+        "total"
+      ],
+      "status": "partial",
+      "available": "Persentase penerima PKH menurut perkotaan/perdesaan/total",
+      "notes": "Jumlah keluarga belum tersedia; pembagi persentase belum jelas; 3 nilai kosong.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 13,
+      "id": "infrastruktur",
+      "institutionAsInMatrix": "Kementerian PUPR",
+      "platformAsInMatrix": "PUPR API / BPS",
+      "requirement": "Infrastruktur Dasar (akses air bersih & sanitasi layak)",
+      "datasetUrl": "/data/2025/infrastruktur_dasar.json",
+      "proposedDomain": "Kesejahteraan Sosial",
+      "fieldPaths": [
+        "rumah_layak_huni",
+        "air_minum_layak",
+        "sanitasi_layak",
+        "fasilitas_cuci_tangan"
+      ],
+      "status": "available",
+      "available": "Rumah layak huni, air minum layak, sanitasi layak, fasilitas cuci tangan",
+      "notes": "Air minum layak dipertahankan sesuai tabel; referensi [1]–[4] belum tersedia.",
+      "integrationStatus": "dashboard_year_selector",
+      "sourceVerificationStatus": "pending_original_references"
+    },
+    {
+      "order": 14,
+      "id": "bencana",
+      "institutionAsInMatrix": "BNPB",
+      "platformAsInMatrix": "InaRISK",
+      "requirement": "Risiko Bencana (banjir, gempa, longsor, dll.)",
+      "datasetUrl": null,
+      "proposedDomain": null,
+      "fieldPaths": [],
+      "status": "missing",
+      "available": "Belum ada dataset 2025",
+      "notes": "Layanan gempa BMKG pada kode bukan pengganti dataset risiko InaRISK.",
+      "integrationStatus": "not_connected",
+      "sourceVerificationStatus": "not_provided"
+    },
+    {
+      "order": 15,
+      "id": "lingkungan",
+      "institutionAsInMatrix": "BMKG",
+      "platformAsInMatrix": "API Data Terbuka BMKG",
+      "requirement": "Kualitas Lingkungan (kualitas udara & peringatan dini cuaca)",
+      "datasetUrl": null,
+      "proposedDomain": null,
+      "fieldPaths": [],
+      "status": "missing",
+      "available": "Belum ada dataset 2025",
+      "notes": "Layanan WAQI pada kode bukan dataset BMKG 2025; udara dan cuaca perlu dibedakan.",
+      "integrationStatus": "not_connected",
+      "sourceVerificationStatus": "not_provided"
+    }
+  ],
+  "supportingDatasets": [
+    {
+      "id": "populasi_aud",
+      "requirement": "Data pendukung: populasi anak usia dini",
+      "datasetUrl": "/data/2025/populasi_aud.json",
+      "proposedDomain": null,
+      "fieldPaths": [
+        "proporsi_0_6",
+        "jumlah_3_6",
+        "jumlah_5_6"
+      ],
+      "status": "available",
+      "notes": "Satuan per kolom berbeda; proporsi 0–6 bukan jumlah 3–6/5–6. Jumlah nasional sesuai tabel; lihat qualityFlags.",
+      "integrationStatus": "shared_year_context",
+      "sourceVerificationStatus": "pending_original_references"
+    }
+  ]
+}

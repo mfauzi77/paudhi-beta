@@ -1,0 +1,10 @@
+{
+  "source": "BNPB - Risiko Bencana",
+  "updatedAt": "2025-01-01",
+  "rows": [
+    { "province": "DKI Jakarta", "district": "Kota Adm. Jakarta Utara", "banjir": 0.7, "gempa": 0.3, "longsor": 0.1 }
+  ]
+}
+
+
+

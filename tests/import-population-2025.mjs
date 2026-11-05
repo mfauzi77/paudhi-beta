@@ -1,0 +1,23 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const text=fs.readFileSync(process.argv[2],'utf8');
+const rows=text.split(/\r?\n/).filter(l=>l.startsWith('|')).map(l=>l.split('|').slice(1,-1).map(v=>v.replace(/\*/g,'').trim())).filter(c=>c.length===5 && (/^\d+$/.test(c[0]) || c[1]==='INDONESIA')).map(c=>({province:c[1],proporsi_0_6:Number(c[2].replace(',','.')),jumlah_3_6:Number(c[3].replaceAll('.','')),jumlah_5_6:Number(c[4].replaceAll('.',''))}));
+assert.equal(rows.length,39);
+const provinces=rows.filter(r=>r.province!=='INDONESIA');
+const national=rows.find(r=>r.province==='INDONESIA');
+const read=p=>JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+assert.deepEqual(provinces.map(r=>r.province).sort(),read('public/data/2025/infrastruktur_dasar.json').provinces.map(r=>r.province).sort());
+for(const r of rows){assert.ok(r.proporsi_0_6>=0 && r.proporsi_0_6<=100); assert.ok(Number.isSafeInteger(r.jumlah_3_6)&&r.jumlah_3_6>=0); assert.ok(Number.isSafeInteger(r.jumlah_5_6)&&r.jumlah_5_6>=0&&r.jumlah_5_6<=r.jumlah_3_6);}
+const sums=Object.fromEntries(['jumlah_3_6','jumlah_5_6'].map(k=>[k,provinces.reduce((sum,r)=>sum+r[k],0)]));
+const qualityFlags=Object.keys(sums).filter(k=>sums[k]!==national[k]).map(field=>({field,provinceSum:sums[field],suppliedNational:national[field],issue:'Jumlah provinsi berbeda dari angka nasional yang diberikan. Keduanya dipertahankan; perlu verifikasi sumber.'}));
+const data={schemaVersion:1,year:2025,yearBasis:'Tahun 2025 sesuai judul tabel pengguna.',title:'Populasi Anak Usia Dini per Provinsi (2025)',geographicLevel:'province',source:{type:'user_provided',verificationStatus:'pending_original_references',sourceUrl:null,notes:'Disalin dari lampiran pengguna. Referensi [1], [2], dan [3] belum disertakan. Jumlah usia 0–6 tidak diberikan. Kelompok usia tidak dijumlahkan karena saling tumpang tindih. Angka nasional dipertahankan.'},indicators:{proporsi_0_6:{label:'Proporsi usia 0–6 dari total penduduk',unit:'%',ageGroup:'0–6 tahun',references:['[1]','[2]']},jumlah_3_6:{label:'Jumlah penduduk usia 3–6',unit:'jiwa',ageGroup:'3–6 tahun',references:['[3]']},jumlah_5_6:{label:'Jumlah penduduk usia 5–6',unit:'jiwa',ageGroup:'5–6 tahun',references:['[3]']}},qualityFlags,provinces,national};
+fs.writeFileSync('public/data/2025/populasi_aud.json',JSON.stringify(data,null,2)+'\n');
+const mapping=read('public/data/2025/mapping.json');
+mapping.supportingDatasets=(mapping.supportingDatasets||[]).filter(e=>e.id!=='populasi_aud');
+mapping.supportingDatasets.push({id:'populasi_aud',requirement:'Data pendukung: populasi anak usia dini',datasetUrl:'/data/2025/populasi_aud.json',proposedDomain:null,fieldPaths:['proporsi_0_6','jumlah_3_6','jumlah_5_6'],status:'available',notes:'Satuan per kolom berbeda; proporsi 0–6 bukan jumlah 3–6/5–6. Jumlah nasional sesuai tabel; lihat qualityFlags.',integrationStatus:'shared_year_context',sourceVerificationStatus:'pending_original_references'});
+fs.writeFileSync('public/data/2025/mapping.json',JSON.stringify(mapping,null,2)+'\n');
+const doc='public/data/2025/MAPPING.md';
+const md=fs.readFileSync(doc,'utf8');
+const heading='\n## Data pendukung populasi 2025\n';
+fs.writeFileSync(doc,md.split(heading)[0]+heading+'\n[populasi_aud.json](./populasi_aud.json): 38 provinsi dan angka nasional, proporsi usia 0–6 (%), jumlah usia 3–6 (jiwa), serta jumlah usia 5–6 (jiwa). Mendukung data per wilayah dan konteks AI, tanpa menambah atau mengubah 15 kelompok matriks utama. Tidak digunakan sebagai bobot risiko atau pasangan forecasting. Referensi belum diverifikasi; selisih jumlah provinsi/nasional dicatat pada qualityFlags.\n');
+console.log(JSON.stringify({provinces:provinces.length,national,sums,qualityFlags}));

@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "yearBasis": "Tahun 2025 tercantum pada tabel pengguna.",
+  "title": "Kemiskinan per Provinsi menurut Perkotaan dan Perdesaan, Maret dan September 2025",
+  "unit": "%",
+  "unitBasis": "Diinterpretasikan sebagai persentase kemiskinan dari konteks dan nilai tabel; satuan tidak tertulis pada header yang diberikan.",
+  "geographicLevel": "province",
+  "population": null,
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "institutionAsProvided": "BPS",
+    "platformAsProvided": "BPS Open Data",
+    "sourceUrl": null,
+    "notes": "Disalin dari tabel pengguna, bukan diambil melalui API BPS. Sumber asli, definisi indikator, satuan, dan populasi acuan belum diverifikasi. Tidak dilabeli sebagai kemiskinan anak karena cakupan usia tidak diberikan. Periode Maret dan September disimpan terpisah; nilai tahunan tidak dihitung dari kedua semester. Total provinsi dan nasional dipertahankan dari tabel, bukan rata-rata sederhana. Angka dengan nol awal seperti 07.03 dibaca sebagai 7.03."
+  },
+  "indicator": {
+    "id": "kemiskinan",
+    "label": "Kemiskinan",
+    "unit": "%"
+  },
+  "periods": {
+    "maret": {
+      "label": "Semester 1 (Maret)",
+      "year": 2025,
+      "month": 3
+    },
+    "september": {
+      "label": "Semester 2 (September)",
+      "year": 2025,
+      "month": 9
+    },
+    "tahunan": {
+      "label": "Tahunan",
+      "year": 2025,
+      "status": "not_provided"
+    }
+  },
+  "geographicBreakdowns": {
+    "perkotaan": "Perkotaan",
+    "perdesaan": "Perdesaan",
+    "total": "Jumlah"
+  },
+  "pendingIndicators": [
+    {
+      "id": "ipm",
+      "label": "Indeks Pembangunan Manusia",
+      "status": "not_provided"
+    }
+  ],
+  "missingValues": [
+    {
+      "scope": "Semua provinsi dan nasional",
+      "fields": [
+        "perkotaan.tahunan",
+        "perdesaan.tahunan",
+        "total.tahunan"
+      ],
+      "originalValue": "-",
+      "reason": "Tidak dijelaskan pada tabel pengguna"
+    },
+    {
+      "province": "DKI Jakarta",
+      "fields": [
+        "perdesaan.maret",
+        "perdesaan.september"
+      ],
+      "originalValue": "-",
+      "reason": "Tidak dijelaskan pada tabel pengguna"
+    }
+  ],
+  "provinces": [
+    {
+      "province": "Aceh",
+      "perkotaan": {
+        "maret": 8.54,
+        "september": 8.15,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 14.44,
+        "september": 14.51,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 12.33,
+        "september": 12.22,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sumatera Utara",
+      "perkotaan": {
+        "maret": 7.1,
+        "september": 7.16,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 7.71,
+        "september": 7.35,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 7.36,
+        "september": 7.24,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sumatera Barat",
+      "perkotaan": {
+        "maret": 3.91,
+        "september": 3.75,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 6.93,
+        "september": 7.03,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5.35,
+        "september": 5.31,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Riau",
+      "perkotaan": {
+        "maret": 5.75,
+        "september": 5.61,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 6.43,
+        "september": 6.76,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 6.16,
+        "september": 6.3,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Jambi",
+      "perkotaan": {
+        "maret": 9.52,
+        "september": 9.25,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 6.01,
+        "september": 5.7,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 7.19,
+        "september": 6.89,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sumatera Selatan",
+      "perkotaan": {
+        "maret": 9.1,
+        "september": 8.91,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 10.79,
+        "september": 10.43,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 10.15,
+        "september": 9.85,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Bengkulu",
+      "perkotaan": {
+        "maret": 12.34,
+        "september": 13.23,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 11.95,
+        "september": 11.19,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 12.08,
+        "september": 11.88,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Lampung",
+      "perkotaan": {
+        "maret": 7.49,
+        "september": 7.37,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 11.32,
+        "september": 10.88,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 10,
+        "september": 9.66,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kep. Bangka Belitung",
+      "perkotaan": {
+        "maret": 3.89,
+        "september": 3.59,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 6.59,
+        "september": 6.5,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5,
+        "september": 4.77,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kepulauan Riau",
+      "perkotaan": {
+        "maret": 4.13,
+        "september": 3.85,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 8.33,
+        "september": 8.7,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 4.44,
+        "september": 4.26,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "DKI Jakarta",
+      "perkotaan": {
+        "maret": 4.28,
+        "september": 4.03,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": null,
+        "september": null,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 4.28,
+        "september": 4.03,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Jawa Barat",
+      "perkotaan": {
+        "maret": 6.76,
+        "september": 6.66,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 8.15,
+        "september": 7.28,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 7.02,
+        "september": 6.78,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Jawa Tengah",
+      "perkotaan": {
+        "maret": 9.1,
+        "september": 8.99,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 9.92,
+        "september": 9.87,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 9.48,
+        "september": 9.39,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "DI Yogyakarta",
+      "perkotaan": {
+        "maret": 10.16,
+        "september": 9.99,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 10.46,
+        "september": 10.37,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 10.23,
+        "september": 10.08,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Jawa Timur",
+      "perkotaan": {
+        "maret": 7,
+        "september": 6.93,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 12.86,
+        "september": 12.55,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 9.5,
+        "september": 9.3,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Banten",
+      "perkotaan": {
+        "maret": 5.58,
+        "september": 5.35,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 5.89,
+        "september": 6.27,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5.63,
+        "september": 5.51,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Bali",
+      "perkotaan": {
+        "maret": 3.27,
+        "september": 3.06,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 4.97,
+        "september": 4.44,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 3.72,
+        "september": 3.42,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Nusa Tenggara Barat",
+      "perkotaan": {
+        "maret": 12.02,
+        "september": 11.7,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 11.51,
+        "september": 11.02,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 11.78,
+        "september": 11.38,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Nusa Tenggara Timur",
+      "perkotaan": {
+        "maret": 7.68,
+        "september": 6.96,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 22.66,
+        "september": 21.48,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 18.6,
+        "september": 17.5,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kalimantan Barat",
+      "perkotaan": {
+        "maret": 4.48,
+        "september": 4.29,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 7.22,
+        "september": 7.05,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 6.16,
+        "september": 5.97,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kalimantan Tengah",
+      "perkotaan": {
+        "maret": 5.46,
+        "september": 4.84,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 4.97,
+        "september": 5.02,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5.19,
+        "september": 4.94,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kalimantan Selatan",
+      "perkotaan": {
+        "maret": 3.43,
+        "september": 2.91,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 4.25,
+        "september": 4.58,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 3.84,
+        "september": 3.73,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kalimantan Timur",
+      "perkotaan": {
+        "maret": 4.16,
+        "september": 4.31,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 7.48,
+        "september": 7.24,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5.17,
+        "september": 5.19,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Kalimantan Utara",
+      "perkotaan": {
+        "maret": 5.27,
+        "september": 5.86,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 5.98,
+        "september": 4.72,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5.54,
+        "september": 5.47,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sulawesi Utara",
+      "perkotaan": {
+        "maret": 4.25,
+        "september": 3.95,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 9.95,
+        "september": 10.11,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 6.71,
+        "september": 6.62,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sulawesi Tengah",
+      "perkotaan": {
+        "maret": 6.98,
+        "september": 6.4,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 12.93,
+        "september": 12.66,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 10.92,
+        "september": 10.52,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sulawesi Selatan",
+      "perkotaan": {
+        "maret": 5.14,
+        "september": 5.17,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 9.88,
+        "september": 9.56,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 7.6,
+        "september": 7.43,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sulawesi Tenggara",
+      "perkotaan": {
+        "maret": 6.42,
+        "september": 6.65,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 13.13,
+        "september": 12.66,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 10.54,
+        "september": 10.14,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Gorontalo",
+      "perkotaan": {
+        "maret": 4.68,
+        "september": 4.46,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 20.8,
+        "september": 19.86,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 13.24,
+        "september": 12.62,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Sulawesi Barat",
+      "perkotaan": {
+        "maret": 8.35,
+        "september": 7.68,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 10.94,
+        "september": 10.84,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 10.41,
+        "september": 10.18,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Maluku",
+      "perkotaan": {
+        "maret": 4.36,
+        "september": 4.8,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 24.61,
+        "september": 24.01,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 15.38,
+        "september": 15.25,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Maluku Utara",
+      "perkotaan": {
+        "maret": 5.95,
+        "september": 5.71,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 5.76,
+        "september": 5.54,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 5.81,
+        "september": 5.59,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Papua Barat",
+      "perkotaan": {
+        "maret": 9.22,
+        "september": 9.6,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 25.88,
+        "september": 24.32,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 20.66,
+        "september": 19.58,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Papua Barat Daya",
+      "perkotaan": {
+        "maret": 8.98,
+        "september": 7.27,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 29.71,
+        "september": 30.77,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 17.95,
+        "september": 17.5,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Papua",
+      "perkotaan": {
+        "maret": 6.58,
+        "september": 5.85,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 38.47,
+        "september": 38,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 19.16,
+        "september": 17.82,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Papua Selatan",
+      "perkotaan": {
+        "maret": 4.12,
+        "september": 4.93,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 28.86,
+        "september": 27.79,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 19.71,
+        "september": 19.26,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Papua Tengah",
+      "perkotaan": {
+        "maret": 5.51,
+        "september": 6.54,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 36.54,
+        "september": 39.14,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 28.9,
+        "september": 29.45,
+        "tahunan": null
+      }
+    },
+    {
+      "province": "Papua Pegunungan",
+      "perkotaan": {
+        "maret": 13,
+        "september": 13.06,
+        "tahunan": null
+      },
+      "perdesaan": {
+        "maret": 31.36,
+        "september": 30.25,
+        "tahunan": null
+      },
+      "total": {
+        "maret": 30.03,
+        "september": 27.21,
+        "tahunan": null
+      }
+    }
+  ],
+  "national": {
+    "province": "INDONESIA",
+    "perkotaan": {
+      "maret": 6.73,
+      "september": 6.6,
+      "tahunan": null
+    },
+    "perdesaan": {
+      "maret": 11.03,
+      "september": 10.72,
+      "tahunan": null
+    },
+    "total": {
+      "maret": 8.47,
+      "september": 8.25,
+      "tahunan": null
+    }
+  }
+}

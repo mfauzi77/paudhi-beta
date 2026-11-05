@@ -1,0 +1,10 @@
+{
+  "source": "BMKG - Kualitas Lingkungan",
+  "updatedAt": "2025-01-01",
+  "rows": [
+    { "province": "Riau", "district": "Kab. Rokan Hilir", "aqi": 82, "peringatan_cuaca": "Siaga" }
+  ]
+}
+
+
+

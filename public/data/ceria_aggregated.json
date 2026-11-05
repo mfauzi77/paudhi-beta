@@ -1,0 +1,1506 @@
+{
+  "kesehatan_lingkungan": {
+    "Aceh": {
+      "sanitasi": 79.41,
+      "keluhan": 36.02,
+      "kesakitan": 20.34
+    },
+    "Sumatera Utara": {
+      "sanitasi": 84.54,
+      "keluhan": 34.23,
+      "kesakitan": 19.37
+    },
+    "Sumatera Barat": {
+      "sanitasi": 71.11,
+      "keluhan": 39.55,
+      "kesakitan": 22.8
+    },
+    "Riau": {
+      "sanitasi": 85.07,
+      "keluhan": 30.32,
+      "kesakitan": 19.78
+    },
+    "Jambi": {
+      "sanitasi": 83.4,
+      "keluhan": 32.43,
+      "kesakitan": 18.99
+    },
+    "Sumatera Selatan": {
+      "sanitasi": 82.87,
+      "keluhan": 39.51,
+      "kesakitan": 20.75
+    },
+    "Bengkulu": {
+      "sanitasi": 82.37,
+      "keluhan": 38.69,
+      "kesakitan": 20.12
+    },
+    "Lampung": {
+      "sanitasi": 86.04,
+      "keluhan": 44.91,
+      "kesakitan": 19.7
+    },
+    "Kep. Bangka Belitung": {
+      "sanitasi": 95.56,
+      "keluhan": 42.85,
+      "kesakitan": 20.12
+    },
+    "Kepulauan Riau": {
+      "sanitasi": 92.33,
+      "keluhan": 41.02,
+      "kesakitan": 18.53
+    },
+    "DKI Jakarta": {
+      "sanitasi": 93.91,
+      "keluhan": 38.38,
+      "kesakitan": 20.83
+    },
+    "Jawa Barat": {
+      "sanitasi": 74.51,
+      "keluhan": 40.6,
+      "kesakitan": 19.83
+    },
+    "Jawa Tengah": {
+      "sanitasi": 85.67,
+      "keluhan": 46.75,
+      "kesakitan": 20.23
+    },
+    "DI Yogyakarta": {
+      "sanitasi": 97.51,
+      "keluhan": 45.13,
+      "kesakitan": 20.34
+    },
+    "Jawa Timur": {
+      "sanitasi": 86.63,
+      "keluhan": 42.12,
+      "kesakitan": 18.63
+    },
+    "Banten": {
+      "sanitasi": 85.49,
+      "keluhan": 39.71,
+      "kesakitan": 21.83
+    },
+    "Bali": {
+      "sanitasi": 97.72,
+      "keluhan": 32.37,
+      "kesakitan": 17.14
+    },
+    "Nusa Tenggara Barat": {
+      "sanitasi": 88.22,
+      "keluhan": 47.44,
+      "kesakitan": 20.75
+    },
+    "Nusa Tenggara Timur": {
+      "sanitasi": 76.06,
+      "keluhan": 38.71,
+      "kesakitan": 17.02
+    },
+    "Kalimantan Barat": {
+      "sanitasi": 82.37,
+      "keluhan": 33.63,
+      "kesakitan": 19.29
+    },
+    "Kalimantan Tengah": {
+      "sanitasi": 78.7,
+      "keluhan": 27.96,
+      "kesakitan": 16.19
+    },
+    "Kalimantan Selatan": {
+      "sanitasi": 83.17,
+      "keluhan": 39.58,
+      "kesakitan": 19.36
+    },
+    "Kalimantan Timur": {
+      "sanitasi": 91.53,
+      "keluhan": 28.18,
+      "kesakitan": 16.17
+    },
+    "Kalimantan Utara": {
+      "sanitasi": 83.37,
+      "keluhan": 30.83,
+      "kesakitan": 17.62
+    },
+    "Sulawesi Utara": {
+      "sanitasi": 87,
+      "keluhan": 30.17,
+      "kesakitan": 16.22
+    },
+    "Sulawesi Tengah": {
+      "sanitasi": 75.99,
+      "keluhan": 28.94,
+      "kesakitan": 16.71
+    },
+    "Sulawesi Selatan": {
+      "sanitasi": 94.12,
+      "keluhan": 38.16,
+      "kesakitan": 18.88
+    },
+    "Sulawesi Tenggara": {
+      "sanitasi": 90.61,
+      "keluhan": 36.2,
+      "kesakitan": 17.45
+    },
+    "Gorontalo": {
+      "sanitasi": 83.41,
+      "keluhan": 39,
+      "kesakitan": 18.73
+    },
+    "Sulawesi Barat": {
+      "sanitasi": 81.9,
+      "keluhan": 40.69,
+      "kesakitan": 16.02
+    },
+    "Maluku": {
+      "sanitasi": 79.24,
+      "keluhan": 31.72,
+      "kesakitan": 16.63
+    },
+    "Maluku Utara": {
+      "sanitasi": 81.54,
+      "keluhan": 23.88,
+      "kesakitan": 12.42
+    },
+    "Papua Barat": {
+      "sanitasi": 75.63,
+      "keluhan": 18.53,
+      "kesakitan": 13.4
+    },
+    "Papua Barat Daya": {
+      "sanitasi": 75.53,
+      "keluhan": 22.15,
+      "kesakitan": 16.98
+    },
+    "Papua": {
+      "sanitasi": 80.69,
+      "keluhan": 19.42,
+      "kesakitan": 14.65
+    },
+    "Papua Selatan": {
+      "sanitasi": 56.59,
+      "keluhan": 16.15,
+      "kesakitan": 11.24
+    },
+    "Papua Tengah": {
+      "sanitasi": 58.78,
+      "keluhan": 13.88,
+      "kesakitan": 3.83
+    },
+    "Papua Pegunungan": {
+      "sanitasi": 14.39,
+      "keluhan": 5.19,
+      "kesakitan": 2.76
+    }
+  },
+  "perkawinan_anak": {
+    "Aceh": 2.62,
+    "Sumatera Utara": 1.81,
+    "Sumatera Barat": 3.49,
+    "Riau": 4.13,
+    "Jambi": 7.8,
+    "Sumatera Selatan": 8.45,
+    "Bengkulu": 6.3,
+    "Lampung": 4.87,
+    "Kep. Bangka Belitung": 8.05,
+    "Kepulauan Riau": 2.89,
+    "DKI Jakarta": 1.68,
+    "Jawa Barat": 5.78,
+    "Jawa Tengah": 6.13,
+    "DI Yogyakarta": 0.64,
+    "Jawa Timur": 7.78,
+    "Banten": 3.73,
+    "Bali": 3.37,
+    "Nusa Tenggara Barat": 14.96,
+    "Nusa Tenggara Timur": 4.7,
+    "Kalimantan Barat": 10.05,
+    "Kalimantan Tengah": 9.89,
+    "Kalimantan Selatan": 7.8,
+    "Kalimantan Timur": 4.29,
+    "Kalimantan Utara": 6.94,
+    "Sulawesi Utara": 8.96,
+    "Sulawesi Tengah": 9.06,
+    "Sulawesi Selatan": 8.09,
+    "Sulawesi Tenggara": 9.4,
+    "Gorontalo": 7.34,
+    "Sulawesi Barat": 10.71,
+    "Maluku": 4.82,
+    "Maluku Utara": 6.88,
+    "Papua Barat": 4.9,
+    "Papua Barat Daya": 3.4,
+    "Papua": 2.7,
+    "Papua Selatan": 14.4,
+    "Papua Tengah": 9.05,
+    "Papua Pegunungan": 6.6
+  },
+  "kasus_perlindungan_anak": [
+    {
+      "provinsi": "Jawa Barat",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 553
+    },
+    {
+      "provinsi": "Jawa Timur",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 438
+    },
+    {
+      "provinsi": "DKI Jakarta",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 401
+    },
+    {
+      "provinsi": "Sumatera Utara",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 308
+    },
+    {
+      "provinsi": "Sulawesi Selatan",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 295
+    },
+    {
+      "provinsi": "Banten",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 284
+    },
+    {
+      "provinsi": "Sumatera Barat",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 261
+    },
+    {
+      "provinsi": "Jawa Tengah",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 249
+    },
+    {
+      "provinsi": "Riau",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 203
+    },
+    {
+      "provinsi": "Papua",
+      "jenis": "Anak Berhadapan dengan Hukum (ABH)",
+      "kasus": 187
+    }
+  ],
+  "paud_akreditasi": [
+    {
+      "provinsi": "Jawa Timur",
+      "jumlah": 45448,
+      "akreditasi": 80,
+      "rasio": "1:12"
+    },
+    {
+      "provinsi": "Jawa Barat",
+      "jumlah": 16623,
+      "akreditasi": 75,
+      "rasio": "1:15"
+    },
+    {
+      "provinsi": "Jawa Tengah",
+      "jumlah": 5609,
+      "akreditasi": 70,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "Sumatera Utara",
+      "jumlah": 4000,
+      "akreditasi": 65,
+      "rasio": "1:10"
+    },
+    {
+      "provinsi": "Sulawesi Selatan",
+      "jumlah": 3500,
+      "akreditasi": 60,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Aceh",
+      "jumlah": 2800,
+      "akreditasi": 85,
+      "rasio": "1:11"
+    },
+    {
+      "provinsi": "Bali",
+      "jumlah": 2500,
+      "akreditasi": 90,
+      "rasio": "1:09"
+    },
+    {
+      "provinsi": "Banten",
+      "jumlah": 2200,
+      "akreditasi": 78,
+      "rasio": "1:12"
+    },
+    {
+      "provinsi": "Bengkulu",
+      "jumlah": 1800,
+      "akreditasi": 80,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "Gorontalo",
+      "jumlah": 1200,
+      "akreditasi": 88,
+      "rasio": "1:10"
+    },
+    {
+      "provinsi": "Jambi",
+      "jumlah": 1500,
+      "akreditasi": 82,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Kalimantan Barat",
+      "jumlah": 1400,
+      "akreditasi": 75,
+      "rasio": "1:12"
+    },
+    {
+      "provinsi": "Kalimantan Selatan",
+      "jumlah": 1600,
+      "akreditasi": 77,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "Kalimantan Tengah",
+      "jumlah": 1300,
+      "akreditasi": 80,
+      "rasio": "1:11"
+    },
+    {
+      "provinsi": "Kalimantan Timur",
+      "jumlah": 1700,
+      "akreditasi": 85,
+      "rasio": "1:10"
+    },
+    {
+      "provinsi": "Kalimantan Utara",
+      "jumlah": 1100,
+      "akreditasi": 70,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Kepulauan Bangka Belitung",
+      "jumlah": 900,
+      "akreditasi": 78,
+      "rasio": "1:12"
+    },
+    {
+      "provinsi": "Kepulauan Riau",
+      "jumlah": 1000,
+      "akreditasi": 80,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "Lampung",
+      "jumlah": 2000,
+      "akreditasi": 85,
+      "rasio": "1:11"
+    },
+    {
+      "provinsi": "Maluku",
+      "jumlah": 1200,
+      "akreditasi": 75,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Maluku Utara",
+      "jumlah": 1100,
+      "akreditasi": 78,
+      "rasio": "1:12"
+    },
+    {
+      "provinsi": "Nusa Tenggara Barat",
+      "jumlah": 1800,
+      "akreditasi": 80,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "Nusa Tenggara Timur",
+      "jumlah": 1900,
+      "akreditasi": 82,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Papua",
+      "jumlah": 2500,
+      "akreditasi": 70,
+      "rasio": "1:10"
+    },
+    {
+      "provinsi": "Papua Barat",
+      "jumlah": 1400,
+      "akreditasi": 75,
+      "rasio": "1:12"
+    },
+    {
+      "provinsi": "Riau",
+      "jumlah": 1600,
+      "akreditasi": 78,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Sulawesi Barat",
+      "jumlah": 1000,
+      "akreditasi": 80,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "Sulawesi Tengah",
+      "jumlah": 1300,
+      "akreditasi": 85,
+      "rasio": "1:11"
+    },
+    {
+      "provinsi": "Sulawesi Tenggara",
+      "jumlah": 1500,
+      "akreditasi": 90,
+      "rasio": "1:09"
+    },
+    {
+      "provinsi": "Sulawesi Utara",
+      "jumlah": 1200,
+      "akreditasi": 88,
+      "rasio": "1:10"
+    },
+    {
+      "provinsi": "Sumatera Barat",
+      "jumlah": 1700,
+      "akreditasi": 75,
+      "rasio": "1:13"
+    },
+    {
+      "provinsi": "Sumatera Selatan",
+      "jumlah": 1800,
+      "akreditasi": 77,
+      "rasio": "1:14"
+    },
+    {
+      "provinsi": "DI Yogyakarta",
+      "jumlah": 1500,
+      "akreditasi": 82,
+      "rasio": "1:13"
+    }
+  ],
+  "paud_kualifikasi_guru": [
+    {
+      "provinsi": "Jawa Timur",
+      "jumlah": 50000,
+      "s1d4": 48000,
+      "persentase": 96
+    },
+    {
+      "provinsi": "Jawa Barat",
+      "jumlah": 110000,
+      "s1d4": 107000,
+      "persentase": 97.27
+    }
+  ],
+  "anc": {
+    "Aceh": {
+      "anc": 97,
+      "persalinan": 96.1
+    },
+    "Sumatera Utara": {
+      "anc": 94.3,
+      "persalinan": 93.5
+    },
+    "Sumatera Barat": {
+      "anc": 96.2,
+      "persalinan": 95.5
+    },
+    "Riau": {
+      "anc": 95.2,
+      "persalinan": 94.7
+    },
+    "Jambi": {
+      "anc": 92.7,
+      "persalinan": 91.8
+    },
+    "Sumatera Selatan": {
+      "anc": 94.7,
+      "persalinan": 93.9
+    },
+    "Bengkulu": {
+      "anc": 95.8,
+      "persalinan": 95
+    },
+    "Lampung": {
+      "anc": 93.6,
+      "persalinan": 92.7
+    },
+    "Kep. Bangka Belitung": {
+      "anc": 96,
+      "persalinan": 95.2
+    },
+    "Kepulauan Riau": {
+      "anc": 97.2,
+      "persalinan": 96.5
+    },
+    "DKI Jakarta": {
+      "anc": 98.9,
+      "persalinan": 98.4
+    },
+    "Jawa Barat": {
+      "anc": 96.8,
+      "persalinan": 96
+    },
+    "Jawa Tengah": {
+      "anc": 97,
+      "persalinan": 96.3
+    },
+    "DI Yogyakarta": {
+      "anc": 98.6,
+      "persalinan": 98
+    },
+    "Jawa Timur": {
+      "anc": 96.7,
+      "persalinan": 95.9
+    },
+    "Banten": {
+      "anc": 97.1,
+      "persalinan": 96.4
+    },
+    "Bali": {
+      "anc": 97.9,
+      "persalinan": 97.2
+    },
+    "Nusa Tenggara Barat": {
+      "anc": 91.5,
+      "persalinan": 90.3
+    },
+    "Nusa Tenggara Timur": {
+      "anc": 84.6,
+      "persalinan": 81.1
+    },
+    "Kalimantan Barat": {
+      "anc": 92.9,
+      "persalinan": 91.7
+    },
+    "Kalimantan Tengah": {
+      "anc": 93.5,
+      "persalinan": 92.4
+    },
+    "Kalimantan Selatan": {
+      "anc": 94.7,
+      "persalinan": 93.8
+    },
+    "Kalimantan Timur": {
+      "anc": 95.2,
+      "persalinan": 94.6
+    },
+    "Kalimantan Utara": {
+      "anc": 96.8,
+      "persalinan": 95.9
+    },
+    "Sulawesi Utara": {
+      "anc": 95.3,
+      "persalinan": 94.5
+    },
+    "Sulawesi Tengah": {
+      "anc": 92.2,
+      "persalinan": 90.8
+    },
+    "Sulawesi Selatan": {
+      "anc": 93.8,
+      "persalinan": 92.9
+    },
+    "Sulawesi Tenggara": {
+      "anc": 92,
+      "persalinan": 90.7
+    },
+    "Gorontalo": {
+      "anc": 95.4,
+      "persalinan": 94.6
+    },
+    "Sulawesi Barat": {
+      "anc": 91,
+      "persalinan": 89.5
+    },
+    "Maluku": {
+      "anc": 84.3,
+      "persalinan": 80.6
+    },
+    "Maluku Utara": {
+      "anc": 86,
+      "persalinan": 82.3
+    },
+    "Papua Barat": {
+      "anc": 78.4,
+      "persalinan": 71.6
+    },
+    "Papua Barat Daya": {
+      "anc": 86.4,
+      "persalinan": 65.2
+    },
+    "Papua": {
+      "anc": 82.1,
+      "persalinan": 75.6
+    },
+    "Papua Selatan": {
+      "anc": 71.7,
+      "persalinan": 68.1
+    },
+    "Papua Tengah": {
+      "anc": 70,
+      "persalinan": 57.4
+    },
+    "Papua Pegunungan": {
+      "anc": 97.3,
+      "persalinan": 85.2
+    }
+  },
+  "gizi": {
+    "Aceh": {
+      "severelyStunted": 8.4,
+      "stunted": 21,
+      "severelyWasted": 2.9,
+      "wasted": 6.6,
+      "severelyUnderweight": 6.5,
+      "underweight": 15.5
+    },
+    "Sumatera Utara": {
+      "severelyStunted": 9,
+      "stunted": 18.1,
+      "severelyWasted": 2,
+      "wasted": 6.2,
+      "severelyUnderweight": 3.9,
+      "underweight": 17.3
+    },
+    "Sumatera Barat": {
+      "severelyStunted": 7.2,
+      "stunted": 18,
+      "severelyWasted": 3.1,
+      "wasted": 7.3,
+      "severelyUnderweight": 5.8,
+      "underweight": 14.2
+    },
+    "Riau": {
+      "severelyStunted": 4.9,
+      "stunted": 13,
+      "severelyWasted": 2.5,
+      "wasted": 6.3,
+      "severelyUnderweight": 4.1,
+      "underweight": 12.9
+    },
+    "Jambi": {
+      "severelyStunted": 5.9,
+      "stunted": 13,
+      "severelyWasted": 2.1,
+      "wasted": 5.6,
+      "severelyUnderweight": 4.5,
+      "underweight": 12.5
+    },
+    "Sumatera Selatan": {
+      "severelyStunted": 5.5,
+      "stunted": 13.4,
+      "severelyWasted": 1.9,
+      "wasted": 5.2,
+      "severelyUnderweight": 4,
+      "underweight": 11.5
+    },
+    "Bengkulu": {
+      "severelyStunted": 5,
+      "stunted": 12.9,
+      "severelyWasted": 2,
+      "wasted": 5.5,
+      "severelyUnderweight": 4.2,
+      "underweight": 13
+    },
+    "Lampung": {
+      "severelyStunted": 4.5,
+      "stunted": 10.7,
+      "severelyWasted": 1.8,
+      "wasted": 4.5,
+      "severelyUnderweight": 3.5,
+      "underweight": 11.5
+    },
+    "Kep. Bangka Belitung": {
+      "severelyStunted": 5.1,
+      "stunted": 13.4,
+      "severelyWasted": 1.5,
+      "wasted": 4,
+      "severelyUnderweight": 3.1,
+      "underweight": 9.5
+    },
+    "Kepulauan Riau": {
+      "severelyStunted": 4.7,
+      "stunted": 10.5,
+      "severelyWasted": 2.2,
+      "wasted": 6.1,
+      "severelyUnderweight": 4.3,
+      "underweight": 12.9
+    },
+    "DKI Jakarta": {
+      "severelyStunted": 3.9,
+      "stunted": 10.9,
+      "severelyWasted": 1.9,
+      "wasted": 4.6,
+      "severelyUnderweight": 2.8,
+      "underweight": 8
+    },
+    "Jawa Barat": {
+      "severelyStunted": 5.8,
+      "stunted": 14.2,
+      "severelyWasted": 2,
+      "wasted": 4.9,
+      "severelyUnderweight": 3.9,
+      "underweight": 10.5
+    },
+    "Jawa Tengah": {
+      "severelyStunted": 5.9,
+      "stunted": 14,
+      "severelyWasted": 2.2,
+      "wasted": 5.5,
+      "severelyUnderweight": 4,
+      "underweight": 12
+    },
+    "DI Yogyakarta": {
+      "severelyStunted": 4.8,
+      "stunted": 11.2,
+      "severelyWasted": 1.8,
+      "wasted": 5,
+      "severelyUnderweight": 3.2,
+      "underweight": 9.8
+    },
+    "Jawa Timur": {
+      "severelyStunted": 5.5,
+      "stunted": 13.5,
+      "severelyWasted": 2.5,
+      "wasted": 6.4,
+      "severelyUnderweight": 4.5,
+      "underweight": 12.5
+    },
+    "Banten": {
+      "severelyStunted": 6.4,
+      "stunted": 17.6,
+      "severelyWasted": 2.1,
+      "wasted": 5.7,
+      "severelyUnderweight": 4.8,
+      "underweight": 14
+    },
+    "Bali": {
+      "severelyStunted": 1.9,
+      "stunted": 5.6,
+      "severelyWasted": 1.5,
+      "wasted": 5,
+      "severelyUnderweight": 2.5,
+      "underweight": 8
+    },
+    "Nusa Tenggara Barat": {
+      "severelyStunted": 9,
+      "stunted": 22.9,
+      "severelyWasted": 4,
+      "wasted": 9.6,
+      "severelyUnderweight": 6.9,
+      "underweight": 17
+    },
+    "Nusa Tenggara Timur": {
+      "severelyStunted": 10.2,
+      "stunted": 25,
+      "severelyWasted": 4.1,
+      "wasted": 9.8,
+      "severelyUnderweight": 8,
+      "underweight": 17.2
+    },
+    "Kalimantan Barat": {
+      "severelyStunted": 7.8,
+      "stunted": 19,
+      "severelyWasted": 3,
+      "wasted": 7.5,
+      "severelyUnderweight": 6.1,
+      "underweight": 15
+    },
+    "Kalimantan Tengah": {
+      "severelyStunted": 7,
+      "stunted": 19.8,
+      "severelyWasted": 2.8,
+      "wasted": 6.8,
+      "severelyUnderweight": 5.5,
+      "underweight": 14
+    },
+    "Kalimantan Selatan": {
+      "severelyStunted": 7.1,
+      "stunted": 16.9,
+      "severelyWasted": 3.2,
+      "wasted": 8,
+      "severelyUnderweight": 5.8,
+      "underweight": 14.2
+    },
+    "Kalimantan Timur": {
+      "severelyStunted": 5.8,
+      "stunted": 16.1,
+      "severelyWasted": 2.3,
+      "wasted": 5.7,
+      "severelyUnderweight": 4.4,
+      "underweight": 11.6
+    },
+    "Kalimantan Utara": {
+      "severelyStunted": 5.6,
+      "stunted": 15.4,
+      "severelyWasted": 2,
+      "wasted": 5.3,
+      "severelyUnderweight": 4,
+      "underweight": 11
+    },
+    "Sulawesi Utara": {
+      "severelyStunted": 6,
+      "stunted": 16.5,
+      "severelyWasted": 2.5,
+      "wasted": 6,
+      "severelyUnderweight": 5,
+      "underweight": 13.5
+    },
+    "Sulawesi Tengah": {
+      "severelyStunted": 8.5,
+      "stunted": 20,
+      "severelyWasted": 3.5,
+      "wasted": 8.5,
+      "severelyUnderweight": 7,
+      "underweight": 17
+    },
+    "Sulawesi Selatan": {
+      "severelyStunted": 7.5,
+      "stunted": 20,
+      "severelyWasted": 2.8,
+      "wasted": 7,
+      "severelyUnderweight": 6,
+      "underweight": 15.5
+    },
+    "Sulawesi Tenggara": {
+      "severelyStunted": 8,
+      "stunted": 22,
+      "severelyWasted": 3.3,
+      "wasted": 8.2,
+      "severelyUnderweight": 6.5,
+      "underweight": 16.5
+    },
+    "Gorontalo": {
+      "severelyStunted": 6.9,
+      "stunted": 17.1,
+      "severelyWasted": 2.9,
+      "wasted": 7.1,
+      "severelyUnderweight": 5.9,
+      "underweight": 14.1
+    },
+    "Sulawesi Barat": {
+      "severelyStunted": 9.8,
+      "stunted": 24,
+      "severelyWasted": 3.8,
+      "wasted": 9.2,
+      "severelyUnderweight": 7.8,
+      "underweight": 18.2
+    },
+    "Maluku": {
+      "severelyStunted": 7.9,
+      "stunted": 18.9,
+      "severelyWasted": 3.9,
+      "wasted": 9.1,
+      "severelyUnderweight": 6.9,
+      "underweight": 16.1
+    },
+    "Maluku Utara": {
+      "severelyStunted": 7,
+      "stunted": 17,
+      "severelyWasted": 3,
+      "wasted": 7.5,
+      "severelyUnderweight": 6,
+      "underweight": 15
+    },
+    "Papua Barat": {
+      "severelyStunted": 9.5,
+      "stunted": 22.5,
+      "severelyWasted": 4,
+      "wasted": 9.5,
+      "severelyUnderweight": 8,
+      "underweight": 19
+    },
+    "Papua Barat Daya": {
+      "severelyStunted": 9,
+      "stunted": 21,
+      "severelyWasted": 3.8,
+      "wasted": 9.2,
+      "severelyUnderweight": 7.5,
+      "underweight": 18.5
+    },
+    "Papua": {
+      "severelyStunted": 10,
+      "stunted": 24,
+      "severelyWasted": 4.5,
+      "wasted": 10.5,
+      "severelyUnderweight": 8.5,
+      "underweight": 20.5
+    },
+    "Papua Selatan": {
+      "severelyStunted": 10.5,
+      "stunted": 24.5,
+      "severelyWasted": 4.8,
+      "wasted": 11.2,
+      "severelyUnderweight": 9,
+      "underweight": 21
+    },
+    "Papua Tengah": {
+      "severelyStunted": 11,
+      "stunted": 25,
+      "severelyWasted": 5,
+      "wasted": 11.5,
+      "severelyUnderweight": 9.5,
+      "underweight": 21.5
+    },
+    "Papua Pegunungan": {
+      "severelyStunted": 12,
+      "stunted": 28,
+      "severelyWasted": 5.5,
+      "wasted": 12.5,
+      "severelyUnderweight": 10,
+      "underweight": 23
+    }
+  },
+  "akta": {
+    "Aceh": "94,44",
+    "Sumatera Utara": "79,21",
+    "Sumatera Barat": "90,96",
+    "Riau": "85,20",
+    "Jambi": "91,33",
+    "Sumatera Selatan": "88,96",
+    "Bengkulu": "91,53",
+    "Lampung": "92,14",
+    "Kep. Bangka Belitung": "93,20",
+    "Kepulauan Riau": "91,98",
+    "DKI Jakarta": "97,17",
+    "Jawa Barat": "84,97",
+    "Jawa Tengah": "95,75",
+    "DI Yogyakarta": "98,24",
+    "Jawa Timur": "92,25",
+    "Banten": "85,41",
+    "Bali": "91,24",
+    "Nusa Tenggara Barat": "84,27",
+    "Nusa Tenggara Timur": "63,41",
+    "Kalimantan Barat": "90,35",
+    "Kalimantan Tengah": "86,03",
+    "Kalimantan Selatan": "89,44",
+    "Kalimantan Timur": "93,24",
+    "Kalimantan Utara": "91,68",
+    "Sulawesi Utara": "86,16",
+    "Sulawesi Tengah": "82,99",
+    "Sulawesi Selatan": "89,31",
+    "Sulawesi Tenggara": "82,71",
+    "Gorontalo": "90,36",
+    "Sulawesi Barat": "87,65",
+    "Maluku": "72,84",
+    "Maluku Utara": "74,07",
+    "Papua Barat": "69,55",
+    "Papua Barat Daya": "70,68",
+    "Papua": "72,01",
+    "Papua Selatan": "52,46",
+    "Papua Tengah": "53,60",
+    "Papua Pegunungan": "17,04"
+  },
+  "idl": {
+    "Aceh": "25.88",
+    "Sumatera Utara": "41.12",
+    "Sumatera Barat": "39.76",
+    "Riau": "45.63",
+    "Jambi": "53.68",
+    "Sumatera Selatan": "54.47",
+    "Bengkulu": "72.16",
+    "Lampung": "74.4",
+    "Kep. Bangka Belitung": "73.39",
+    "Kepulauan Riau": "70.99",
+    "DKI Jakarta": "66.07",
+    "Jawa Barat": "64.51",
+    "Jawa Tengah": "75.46",
+    "DI Yogyakarta": "85.58",
+    "Jawa Timur": "75.27",
+    "Banten": "51.23",
+    "Bali": "82.09",
+    "Nusa Tenggara Barat": "71.38",
+    "Nusa Tenggara Timur": "72.35",
+    "Kalimantan Barat": "54.52",
+    "Kalimantan Tengah": "56.73",
+    "Kalimantan Selatan": "70.57",
+    "Kalimantan Timur": "70.15",
+    "Kalimantan Utara": "57.69",
+    "Sulawesi Utara": "68.03",
+    "Sulawesi Tengah": "61.62",
+    "Sulawesi Selatan": "68.85",
+    "Sulawesi Tenggara": "72.44",
+    "Gorontalo": "71.47",
+    "Sulawesi Barat": "58.82",
+    "Maluku": "60.49",
+    "Maluku Utara": "53.49",
+    "Papua Barat": "57.73",
+    "Papua Barat Daya": "50.01",
+    "Papua": "51.82",
+    "Papua Selatan": "62.64",
+    "Papua Tengah": "34.6",
+    "Papua Pegunungan": "NA"
+  },
+  "kemiskinan": {
+    "Aceh": "18,55",
+    "Sumatera Utara": "12,81",
+    "Sumatera Barat": "9,01",
+    "Riau": "9,14",
+    "Jambi": "9,85",
+    "Sumatera Selatan": "14,35",
+    "Bengkulu": "20,12",
+    "Lampung": "15,82",
+    "Kep. Bangka Belitung": "7,01",
+    "Kepulauan Riau": "5,78",
+    "DKI Jakarta": "7,13",
+    "Jawa Barat": "9,95",
+    "Jawa Tengah": "14,22",
+    "DI Yogyakarta": "16,39",
+    "Jawa Timur": "13,02",
+    "Banten": "8,88",
+    "Bali": "5,31",
+    "Nusa Tenggara Barat": "16,42",
+    "Nusa Tenggara Timur": "25,51",
+    "Kalimantan Barat": "7,96",
+    "Kalimantan Tengah": "6,85",
+    "Kalimantan Selatan": "5,42",
+    "Kalimantan Timur": "8,47",
+    "Kalimantan Utara": "10,34",
+    "Sulawesi Utara": "10,72",
+    "Sulawesi Tengah": "16,46",
+    "Sulawesi Selatan": "10,90",
+    "Sulawesi Tenggara": "17,16",
+    "Gorontalo": "19,93",
+    "Sulawesi Barat": "15,83",
+    "Maluku": "22,88",
+    "Maluku Utara": "7,44",
+    "Papua Barat": "27,46",
+    "Papua Barat Daya": "24,34",
+    "Papua": "23,99",
+    "Papua Selatan": "25,09",
+    "Papua Tengah": "33,41",
+    "Papua Pegunungan": "35,24"
+  },
+  "pkh": {
+    "Aceh": "21,24",
+    "Sumatera Utara": "13,36",
+    "Sumatera Barat": "17,19",
+    "Riau": "12,02",
+    "Jambi": "11,24",
+    "Sumatera Selatan": "14,98",
+    "Bengkulu": "17,72",
+    "Lampung": "20,50",
+    "Kep. Bangka Belitung": "7,72",
+    "Kepulauan Riau": "6,69",
+    "DKI Jakarta": "4,04",
+    "Jawa Barat": "12,77",
+    "Jawa Tengah": "19,42",
+    "DI Yogyakarta": "17,26",
+    "Jawa Timur": "15,20",
+    "Banten": "11,66",
+    "Bali": "6,78",
+    "Nusa Tenggara Barat": "23,49",
+    "Nusa Tenggara Timur": "31,76",
+    "Kalimantan Barat": "13,50",
+    "Kalimantan Tengah": "6,38",
+    "Kalimantan Selatan": "7,86",
+    "Kalimantan Timur": "5,33",
+    "Kalimantan Utara": "10,36",
+    "Sulawesi Utara": "15,33",
+    "Sulawesi Tengah": "23,99",
+    "Sulawesi Selatan": "19,58",
+    "Sulawesi Tenggara": "23,75",
+    "Gorontalo": "28,12",
+    "Sulawesi Barat": "24,70",
+    "Maluku": "22,75",
+    "Maluku Utara": "12,44",
+    "Papua Barat": "15,85",
+    "Papua Barat Daya": "15,70",
+    "Papua": "14,07",
+    "Papua Selatan": "5,23",
+    "Papua Tengah": "3,59",
+    "Papua Pegunungan": "10,29"
+  },
+  "sanitasi": {
+    "Aceh": {
+      "air": "89,95",
+      "sanitasi": "79,41",
+      "cuci": "74,45"
+    },
+    "Sumatera Utara": {
+      "air": "92,09",
+      "sanitasi": "84,54",
+      "cuci": "73,97"
+    },
+    "Sumatera Barat": {
+      "air": "84,83",
+      "sanitasi": "71,11",
+      "cuci": "87,36"
+    },
+    "Riau": {
+      "air": "92,03",
+      "sanitasi": "85,07",
+      "cuci": "75,07"
+    },
+    "Jambi": {
+      "air": "81,63",
+      "sanitasi": "83,40",
+      "cuci": "74,18"
+    },
+    "Sumatera Selatan": {
+      "air": "86,42",
+      "sanitasi": "82,87",
+      "cuci": "77,92"
+    },
+    "Bengkulu": {
+      "air": "72,09",
+      "sanitasi": "82,37",
+      "cuci": "81,75"
+    },
+    "Lampung": {
+      "air": "83,65",
+      "sanitasi": "86,04",
+      "cuci": "81,88"
+    },
+    "Kep. Bangka Belitung": {
+      "air": "80,60",
+      "sanitasi": "95,56",
+      "cuci": "90,70"
+    },
+    "Kepulauan Riau": {
+      "air": "94,65",
+      "sanitasi": "92,33",
+      "cuci": "88,06"
+    },
+    "DKI Jakarta": {
+      "air": "99,99",
+      "sanitasi": "93,91",
+      "cuci": "80,11"
+    },
+    "Jawa Barat": {
+      "air": "95,07",
+      "sanitasi": "74,51",
+      "cuci": "83,48"
+    },
+    "Jawa Tengah": {
+      "air": "95,53",
+      "sanitasi": "85,67",
+      "cuci": "87,80"
+    },
+    "DI Yogyakarta": {
+      "air": "97,92",
+      "sanitasi": "97,51",
+      "cuci": "86,48"
+    },
+    "Jawa Timur": {
+      "air": "97,51",
+      "sanitasi": "86,63",
+      "cuci": "85,83"
+    },
+    "Banten": {
+      "air": "94,27",
+      "sanitasi": "85,49",
+      "cuci": "83,79"
+    },
+    "Bali": {
+      "air": "97,97",
+      "sanitasi": "97,72",
+      "cuci": "92,22"
+    },
+    "Nusa Tenggara Barat": {
+      "air": "95,76",
+      "sanitasi": "88,22",
+      "cuci": "77,30"
+    },
+    "Nusa Tenggara Timur": {
+      "air": "88,23",
+      "sanitasi": "76,06",
+      "cuci": "43,25"
+    },
+    "Kalimantan Barat": {
+      "air": "81,18",
+      "sanitasi": "82,37",
+      "cuci": "79,27"
+    },
+    "Kalimantan Tengah": {
+      "air": "78,48",
+      "sanitasi": "78,70",
+      "cuci": "75,56"
+    },
+    "Kalimantan Selatan": {
+      "air": "75,91",
+      "sanitasi": "83,17",
+      "cuci": "84,26"
+    },
+    "Kalimantan Timur": {
+      "air": "88,64",
+      "sanitasi": "91,53",
+      "cuci": "79,20"
+    },
+    "Kalimantan Utara": {
+      "air": "88,03",
+      "sanitasi": "83,37",
+      "cuci": "77,83"
+    },
+    "Sulawesi Utara": {
+      "air": "93,26",
+      "sanitasi": "87,00",
+      "cuci": "87,93"
+    },
+    "Sulawesi Tengah": {
+      "air": "86,00",
+      "sanitasi": "75,99",
+      "cuci": "80,06"
+    },
+    "Sulawesi Selatan": {
+      "air": "92,42",
+      "sanitasi": "94,12",
+      "cuci": "85,40"
+    },
+    "Sulawesi Tenggara": {
+      "air": "95,24",
+      "sanitasi": "90,61",
+      "cuci": "87,46"
+    },
+    "Gorontalo": {
+      "air": "95,92",
+      "sanitasi": "83,41",
+      "cuci": "79,99"
+    },
+    "Sulawesi Barat": {
+      "air": "80,48",
+      "sanitasi": "81,90",
+      "cuci": "80,84"
+    },
+    "Maluku": {
+      "air": "93,99",
+      "sanitasi": "79,24",
+      "cuci": "73,12"
+    },
+    "Maluku Utara": {
+      "air": "89,20",
+      "sanitasi": "81,54",
+      "cuci": "84,46"
+    },
+    "Papua Barat": {
+      "air": "83,40",
+      "sanitasi": "75,63",
+      "cuci": "66,70"
+    },
+    "Papua Barat Daya": {
+      "air": "81,74",
+      "sanitasi": "75,53",
+      "cuci": "63,44"
+    },
+    "Papua": {
+      "air": "85,38",
+      "sanitasi": "80,69",
+      "cuci": "68,62"
+    },
+    "Papua Selatan": {
+      "air": "71,45",
+      "sanitasi": "56,59",
+      "cuci": "47,91"
+    },
+    "Papua Tengah": {
+      "air": "85,79",
+      "sanitasi": "58,78",
+      "cuci": "37,03"
+    },
+    "Papua Pegunungan": {
+      "air": "32,62",
+      "sanitasi": "14,39",
+      "cuci": "3,66"
+    }
+  },
+  "populasi_anak_usia_dini": {
+    "Papua Selatan": "81.068",
+    "Nusa Tenggara Timur": "751.822",
+    "Papua Barat": "73.665",
+    "Sulawesi Tenggara": "358.129",
+    "Kepulauan Riau": "279.450",
+    "Sulawesi Barat": "188.521",
+    "Papua Barat Daya": "78.235",
+    "Nusa Tenggara Barat": "695.450",
+    "Aceh": "686.258",
+    "Maluku": "236.025",
+    "Sumatera Barat": "700.436",
+    "Riau": "826.108",
+    "Sumatera Utara": "1.858.522",
+    "Maluku Utara": "163.732",
+    "Sulawesi Tengah": "372.434",
+    "Sumatera Selatan": "1.042.269",
+    "Kalimantan Utara": "85.350",
+    "Jambi": "430.681",
+    "Kalimantan Barat": "639.346",
+    "Banten": "1.393.232",
+    "Kalimantan Selatan": "474.609",
+    "Bengkulu": "234.293",
+    "Kep. Bangka Belitung": "167.117",
+    "Kalimantan Tengah": "305.107",
+    "Lampung": "1.024.840",
+    "Kalimantan Timur": "430.125",
+    "Papua": "112.929",
+    "Jawa Barat": "5.349.248",
+    "Sulawesi Selatan": "1.002.509",
+    "Gorontalo": "128.673",
+    "DKI Jakarta": "1.140.596",
+    "Sulawesi Utara": "270.872",
+    "Jawa Tengah": "3.600.215",
+    "Jawa Timur": "3.925.980",
+    "Bali": "415.326",
+    "DI Yogyakarta": "354.371",
+    "Papua Tengah": "117.628",
+    "Papua Pegunungan": "101.003"
+  },
+  "partisipasi_paud": {
+    "Aceh": {
+      "partisipasi_0_6": "26,60",
+      "partisipasi_pra_sd": "96,89"
+    },
+    "Sumatera Utara": {
+      "partisipasi_0_6": "21,73",
+      "partisipasi_pra_sd": "96,93"
+    },
+    "Sumatera Barat": {
+      "partisipasi_0_6": "21,89",
+      "partisipasi_pra_sd": "96,76"
+    },
+    "Riau": {
+      "partisipasi_0_6": "20,11",
+      "partisipasi_pra_sd": "93,82"
+    },
+    "Jambi": {
+      "partisipasi_0_6": "27,09",
+      "partisipasi_pra_sd": "96,52"
+    },
+    "Sumatera Selatan": {
+      "partisipasi_0_6": "21,84",
+      "partisipasi_pra_sd": "96,99"
+    },
+    "Bengkulu": {
+      "partisipasi_0_6": "21,70",
+      "partisipasi_pra_sd": "98,55"
+    },
+    "Lampung": {
+      "partisipasi_0_6": "24,17",
+      "partisipasi_pra_sd": "94,88"
+    },
+    "Kep. Bangka Belitung": {
+      "partisipasi_0_6": "25,02",
+      "partisipasi_pra_sd": "95,28"
+    },
+    "Kepulauan Riau": {
+      "partisipasi_0_6": "20,40",
+      "partisipasi_pra_sd": "84,29"
+    },
+    "DKI Jakarta": {
+      "partisipasi_0_6": "28,88",
+      "partisipasi_pra_sd": "93,14"
+    },
+    "Jawa Barat": {
+      "partisipasi_0_6": "23,70",
+      "partisipasi_pra_sd": "94,75"
+    },
+    "Jawa Tengah": {
+      "partisipasi_0_6": "34,59",
+      "partisipasi_pra_sd": "98,11"
+    },
+    "DI Yogyakarta": {
+      "partisipasi_0_6": "46,71",
+      "partisipasi_pra_sd": "99,98"
+    },
+    "Jawa Timur": {
+      "partisipasi_0_6": "37,64",
+      "partisipasi_pra_sd": "96,56"
+    },
+    "Banten": {
+      "partisipasi_0_6": "22,23",
+      "partisipasi_pra_sd": "93,72"
+    },
+    "Bali": {
+      "partisipasi_0_6": "25,10",
+      "partisipasi_pra_sd": "95,52"
+    },
+    "Nusa Tenggara Barat": {
+      "partisipasi_0_6": "30,78",
+      "partisipasi_pra_sd": "94,85"
+    },
+    "Nusa Tenggara Timur": {
+      "partisipasi_0_6": "27,69",
+      "partisipasi_pra_sd": "94,70"
+    },
+    "Kalimantan Barat": {
+      "partisipasi_0_6": "18,86",
+      "partisipasi_pra_sd": "94,34"
+    },
+    "Kalimantan Tengah": {
+      "partisipasi_0_6": "28,35",
+      "partisipasi_pra_sd": "96,03"
+    },
+    "Kalimantan Selatan": {
+      "partisipasi_0_6": "32,63",
+      "partisipasi_pra_sd": "97,98"
+    },
+    "Kalimantan Timur": {
+      "partisipasi_0_6": "21,68",
+      "partisipasi_pra_sd": "92,99"
+    },
+    "Kalimantan Utara": {
+      "partisipasi_0_6": "25,34",
+      "partisipasi_pra_sd": "96,88"
+    },
+    "Sulawesi Utara": {
+      "partisipasi_0_6": "25,57",
+      "partisipasi_pra_sd": "97,70"
+    },
+    "Sulawesi Tengah": {
+      "partisipasi_0_6": "27,10",
+      "partisipasi_pra_sd": "94,70"
+    },
+    "Sulawesi Selatan": {
+      "partisipasi_0_6": "24,39",
+      "partisipasi_pra_sd": "97,70"
+    },
+    "Sulawesi Tenggara": {
+      "partisipasi_0_6": "25,56",
+      "partisipasi_pra_sd": "95,39"
+    },
+    "Gorontalo": {
+      "partisipasi_0_6": "34,60",
+      "partisipasi_pra_sd": "97,37"
+    },
+    "Sulawesi Barat": {
+      "partisipasi_0_6": "31,32",
+      "partisipasi_pra_sd": "97,00"
+    },
+    "Maluku": {
+      "partisipasi_0_6": "24,37",
+      "partisipasi_pra_sd": "92,91"
+    },
+    "Maluku Utara": {
+      "partisipasi_0_6": "29,15",
+      "partisipasi_pra_sd": "95,30"
+    },
+    "Papua Barat": {
+      "partisipasi_0_6": "25,72",
+      "partisipasi_pra_sd": "88,27"
+    },
+    "Papua Barat Daya": {
+      "partisipasi_0_6": "16,99",
+      "partisipasi_pra_sd": "92,99"
+    },
+    "Papua": {
+      "partisipasi_0_6": "18,71",
+      "partisipasi_pra_sd": "84,32"
+    },
+    "Papua Selatan": {
+      "partisipasi_0_6": "14,21",
+      "partisipasi_pra_sd": "68,03"
+    },
+    "Papua Tengah": {
+      "partisipasi_0_6": "10,18",
+      "partisipasi_pra_sd": "44,26"
+    },
+    "Papua Pegunungan": {
+      "partisipasi_0_6": "2,62",
+      "partisipasi_pra_sd": "39,54"
+    }
+  }
+}

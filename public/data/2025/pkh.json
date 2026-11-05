@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "yearBasis": "Konteks pengumpulan data 2025 dari pengguna; tahun belum tercantum pada tabel PKH yang dikirim.",
+  "title": "Persentase Penerima Bantuan Sosial PKH per Provinsi menurut Perkotaan dan Perdesaan",
+  "unit": "%",
+  "geographicLevel": "province",
+  "population": null,
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "institutionAsProvided": "Kemensos",
+    "platformAsProvided": "Kemensos API",
+    "sourceUrl": null,
+    "notes": "Disalin dari tabel pengguna, bukan diambil melalui API Kemensos. Tahun pengamatan, sumber asli, populasi pembagi persentase, dan definisi penerima PKH belum diverifikasi. Tidak ditafsirkan sebagai jumlah keluarga atau persentase anak penerima bantuan. Total provinsi dan nasional dipertahankan dari tabel, bukan rata-rata sederhana. Nilai disimpan dalam satuan persen: 15.7 berarti 15,7%."
+  },
+  "indicators": {
+    "perkotaan": {
+      "label": "Perkotaan",
+      "unit": "%"
+    },
+    "perdesaan": {
+      "label": "Perdesaan",
+      "unit": "%"
+    },
+    "total": {
+      "label": "Total",
+      "unit": "%"
+    }
+  },
+  "missingValues": [
+    {
+      "province": "DKI Jakarta",
+      "field": "perdesaan",
+      "originalValue": "-",
+      "reason": "Tidak dijelaskan pada tabel pengguna"
+    },
+    {
+      "province": "Papua Selatan",
+      "field": "perkotaan",
+      "originalValue": "NA",
+      "reason": "Tidak dijelaskan pada tabel pengguna"
+    },
+    {
+      "province": "Papua Pegunungan",
+      "field": "perkotaan",
+      "originalValue": "NA",
+      "reason": "Tidak dijelaskan pada tabel pengguna"
+    }
+  ],
+  "provinces": [
+    {
+      "province": "Aceh",
+      "perkotaan": 15.7,
+      "perdesaan": 26.16,
+      "total": 22.62
+    },
+    {
+      "province": "Sumatera Utara",
+      "perkotaan": 9.09,
+      "perdesaan": 14.04,
+      "total": 11.32
+    },
+    {
+      "province": "Sumatera Barat",
+      "perkotaan": 12.07,
+      "perdesaan": 15.44,
+      "total": 13.79
+    },
+    {
+      "province": "Riau",
+      "perkotaan": 5.4,
+      "perdesaan": 14.92,
+      "total": 11.27
+    },
+    {
+      "province": "Jambi",
+      "perkotaan": 10.09,
+      "perdesaan": 10.03,
+      "total": 10.05
+    },
+    {
+      "province": "Sumatera Selatan",
+      "perkotaan": 11,
+      "perdesaan": 13.32,
+      "total": 12.51
+    },
+    {
+      "province": "Bengkulu",
+      "perkotaan": 10.09,
+      "perdesaan": 13.55,
+      "total": 12.47
+    },
+    {
+      "province": "Lampung",
+      "perkotaan": 18.03,
+      "perdesaan": 21.06,
+      "total": 20.08
+    },
+    {
+      "province": "Kep. Bangka Belitung",
+      "perkotaan": 3.45,
+      "perdesaan": 4.67,
+      "total": 3.97
+    },
+    {
+      "province": "Kepulauan Riau",
+      "perkotaan": 8.63,
+      "perdesaan": 13.63,
+      "total": 8.92
+    },
+    {
+      "province": "DKI Jakarta",
+      "perkotaan": 4.05,
+      "perdesaan": null,
+      "total": 4.05
+    },
+    {
+      "province": "Jawa Barat",
+      "perkotaan": 10.32,
+      "perdesaan": 12.75,
+      "total": 10.8
+    },
+    {
+      "province": "Jawa Tengah",
+      "perkotaan": 14.68,
+      "perdesaan": 17.92,
+      "total": 16.22
+    },
+    {
+      "province": "DI Yogyakarta",
+      "perkotaan": 6.84,
+      "perdesaan": 11.28,
+      "total": 7.91
+    },
+    {
+      "province": "Jawa Timur",
+      "perkotaan": 13.88,
+      "perdesaan": 17.47,
+      "total": 15.53
+    },
+    {
+      "province": "Banten",
+      "perkotaan": 6.22,
+      "perdesaan": 14.28,
+      "total": 7.42
+    },
+    {
+      "province": "Bali",
+      "perkotaan": 6.78,
+      "perdesaan": 11.01,
+      "total": 8.44
+    },
+    {
+      "province": "Nusa Tenggara Barat",
+      "perkotaan": 21.75,
+      "perdesaan": 22.84,
+      "total": 22.25
+    },
+    {
+      "province": "Nusa Tenggara Timur",
+      "perkotaan": 27.24,
+      "perdesaan": 31.97,
+      "total": 30.73
+    },
+    {
+      "province": "Kalimantan Barat",
+      "perkotaan": 11.06,
+      "perdesaan": 21.9,
+      "total": 17.93
+    },
+    {
+      "province": "Kalimantan Tengah",
+      "perkotaan": 3.52,
+      "perdesaan": 6.93,
+      "total": 5.45
+    },
+    {
+      "province": "Kalimantan Selatan",
+      "perkotaan": 4.46,
+      "perdesaan": 8.06,
+      "total": 6.3
+    },
+    {
+      "province": "Kalimantan Timur",
+      "perkotaan": 4.31,
+      "perdesaan": 11.37,
+      "total": 6.57
+    },
+    {
+      "province": "Kalimantan Utara",
+      "perkotaan": 9.18,
+      "perdesaan": 10.01,
+      "total": 9.5
+    },
+    {
+      "province": "Sulawesi Utara",
+      "perkotaan": 9.53,
+      "perdesaan": 13.18,
+      "total": 11.2
+    },
+    {
+      "province": "Sulawesi Tengah",
+      "perkotaan": 18.1,
+      "perdesaan": 23.09,
+      "total": 21.47
+    },
+    {
+      "province": "Sulawesi Selatan",
+      "perkotaan": 12.83,
+      "perdesaan": 21.02,
+      "total": 17.21
+    },
+    {
+      "province": "Sulawesi Tenggara",
+      "perkotaan": 15.88,
+      "perdesaan": 22.3,
+      "total": 20.01
+    },
+    {
+      "province": "Gorontalo",
+      "perkotaan": 21.1,
+      "perdesaan": 32.94,
+      "total": 27.65
+    },
+    {
+      "province": "Sulawesi Barat",
+      "perkotaan": 18.45,
+      "perdesaan": 21.17,
+      "total": 20.68
+    },
+    {
+      "province": "Maluku",
+      "perkotaan": 13.33,
+      "perdesaan": 27.22,
+      "total": 21.22
+    },
+    {
+      "province": "Maluku Utara",
+      "perkotaan": 4.6,
+      "perdesaan": 11.49,
+      "total": 9.67
+    },
+    {
+      "province": "Papua Barat",
+      "perkotaan": 14.92,
+      "perdesaan": 21.27,
+      "total": 19.17
+    },
+    {
+      "province": "Papua Barat Daya",
+      "perkotaan": 19.11,
+      "perdesaan": 12.7,
+      "total": 16.33
+    },
+    {
+      "province": "Papua",
+      "perkotaan": 9.54,
+      "perdesaan": 18.19,
+      "total": 13
+    },
+    {
+      "province": "Papua Selatan",
+      "perkotaan": null,
+      "perdesaan": 5.79,
+      "total": 4.77
+    },
+    {
+      "province": "Papua Tengah",
+      "perkotaan": 3.85,
+      "perdesaan": 4.85,
+      "total": 4.42
+    },
+    {
+      "province": "Papua Pegunungan",
+      "perkotaan": null,
+      "perdesaan": 18.17,
+      "total": 17.15
+    }
+  ],
+  "national": {
+    "province": "INDONESIA",
+    "perkotaan": 10.36,
+    "perdesaan": 17.14,
+    "total": 13.21
+  }
+}

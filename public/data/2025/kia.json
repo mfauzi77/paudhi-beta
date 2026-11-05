@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "yearBasis": "Konteks pengumpulan data 2025 dari pengguna; tahun belum tercantum pada tabel K4 yang dikirim.",
+  "title": "Kesehatan Ibu dan Anak per Provinsi: Kunjungan Antenatal K4",
+  "unit": "%",
+  "geographicLevel": "province",
+  "population": null,
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "institutionAsProvided": "Kementerian Kesehatan (Kemenkes)",
+    "platformAsProvided": "SatuSehat",
+    "sourceUrl": null,
+    "notes": "Disalin dari tabel pengguna, bukan diambil melalui API SatuSehat. Tahun pengamatan, sumber asli, populasi acuan, dan definisi operasional K4 belum diverifikasi. Angka nasional dipertahankan dari tabel, bukan rata-rata provinsi. Tabel hanya memuat K4; persalinan, AKB, dan AKI belum diberikan."
+  },
+  "indicators": {
+    "kunjungan_k4": { "label": "Kunjungan Antenatal K4", "unit": "%" }
+  },
+  "pendingIndicators": [
+    { "id": "persalinan", "label": "Persalinan", "status": "not_provided" },
+    { "id": "akb", "label": "Angka Kematian Bayi", "status": "not_provided" },
+    { "id": "aki", "label": "Angka Kematian Ibu", "status": "not_provided" }
+  ],
+  "missingValues": [
+    { "province": "Papua Tengah", "field": "kunjungan_k4", "originalValue": "-", "reason": "Tidak dijelaskan pada tabel pengguna" },
+    { "province": "Papua Pegunungan", "field": "kunjungan_k4", "originalValue": "-", "reason": "Tidak dijelaskan pada tabel pengguna" }
+  ],
+  "provinces": [
+    { "province": "Aceh", "kunjungan_k4": 70.3 },
+    { "province": "Sumatera Utara", "kunjungan_k4": 65.8 },
+    { "province": "Sumatera Barat", "kunjungan_k4": 80.2 },
+    { "province": "Riau", "kunjungan_k4": 69.9 },
+    { "province": "Jambi", "kunjungan_k4": 63.2 },
+    { "province": "Sumatera Selatan", "kunjungan_k4": 70.1 },
+    { "province": "Bengkulu", "kunjungan_k4": 74.5 },
+    { "province": "Lampung", "kunjungan_k4": 80 },
+    { "province": "Kep. Bangka Belitung", "kunjungan_k4": 70.1 },
+    { "province": "Kepulauan Riau", "kunjungan_k4": 80.8 },
+    { "province": "DKI Jakarta", "kunjungan_k4": 82.4 },
+    { "province": "Jawa Barat", "kunjungan_k4": 82.7 },
+    { "province": "Jawa Tengah", "kunjungan_k4": 85.3 },
+    { "province": "DI Yogyakarta", "kunjungan_k4": 82.4 },
+    { "province": "Jawa Timur", "kunjungan_k4": 79.4 },
+    { "province": "Banten", "kunjungan_k4": 78.3 },
+    { "province": "Bali", "kunjungan_k4": 92 },
+    { "province": "Nusa Tenggara Barat", "kunjungan_k4": 84.3 },
+    { "province": "Nusa Tenggara Timur", "kunjungan_k4": 69.9 },
+    { "province": "Kalimantan Barat", "kunjungan_k4": 59 },
+    { "province": "Kalimantan Tengah", "kunjungan_k4": 57.9 },
+    { "province": "Kalimantan Selatan", "kunjungan_k4": 76.9 },
+    { "province": "Kalimantan Timur", "kunjungan_k4": 82.6 },
+    { "province": "Kalimantan Utara", "kunjungan_k4": 74.8 },
+    { "province": "Sulawesi Utara", "kunjungan_k4": 59.9 },
+    { "province": "Sulawesi Tengah", "kunjungan_k4": 66.8 },
+    { "province": "Sulawesi Selatan", "kunjungan_k4": 71.1 },
+    { "province": "Sulawesi Tenggara", "kunjungan_k4": 53.7 },
+    { "province": "Gorontalo", "kunjungan_k4": 61.4 },
+    { "province": "Sulawesi Barat", "kunjungan_k4": 69.8 },
+    { "province": "Maluku", "kunjungan_k4": 42.6 },
+    { "province": "Maluku Utara", "kunjungan_k4": 55.4 },
+    { "province": "Papua Barat", "kunjungan_k4": 41.5 },
+    { "province": "Papua Barat Daya", "kunjungan_k4": 55.8 },
+    { "province": "Papua", "kunjungan_k4": 58.7 },
+    { "province": "Papua Selatan", "kunjungan_k4": 40.3 },
+    { "province": "Papua Tengah", "kunjungan_k4": null },
+    { "province": "Papua Pegunungan", "kunjungan_k4": null }
+  ],
+  "national": { "province": "INDONESIA", "kunjungan_k4": 75.8 }
+}

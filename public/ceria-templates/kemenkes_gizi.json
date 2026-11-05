@@ -1,0 +1,11 @@
+{
+  "source": "Kemenkes - Gizi",
+  "updatedAt": "2025-01-01",
+  "rows": [
+    { "province": "NTT", "district": "Kab. Sikka", "stunting": 28.3, "wasting": 7.2, "underweight": 12.1 },
+    { "province": "NTT", "district": "Kab. Ende", "stunting": 29.5, "wasting": 6.8, "underweight": 11.9 }
+  ]
+}
+
+
+

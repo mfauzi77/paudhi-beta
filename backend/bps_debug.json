@@ -1,0 +1,19 @@
+{
+  "keys": [
+    "status",
+    "data-availability",
+    "data"
+  ],
+  "available_years": [],
+  "regions_count": 0,
+  "data_keys_sample": [
+    "0",
+    "1"
+  ],
+  "variable": {
+    "val": "25",
+    "label": "Sosial-Ekonomi (kemiskinan & IPM)",
+    "unit": "",
+    "def": ""
+  }
+}

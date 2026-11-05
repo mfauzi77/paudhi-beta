@@ -1,0 +1,19 @@
+# Enable rewriting
+RewriteEngine On
+RewriteBase /
+
+# Don't rewrite files or directories
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Rewrite everything else to index.html to allow HTML5 state links
+RewriteRule ^ index.html [L]
+
+# Set some caching headers for static assets
+<FilesMatch "\.(jpg|jpeg|png|gif|ico|css|js)$">
+Header set Cache-Control "max-age=31536000, public"
+</FilesMatch>
+
+# Prevent directory listing
+Options -Indexes

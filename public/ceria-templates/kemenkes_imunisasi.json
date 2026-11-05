@@ -1,0 +1,11 @@
+{
+  "source": "Kemenkes - Imunisasi",
+  "updatedAt": "2025-01-01",
+  "rows": [
+    { "province": "Papua", "district": "Kab. Jayapura", "subdistrict": "Sentani", "village": "Kemtuk", "idl": 72.5 },
+    { "province": "Papua", "district": "Kab. Jayapura", "subdistrict": "Sentani", "village": "Harapan", "idl": 68.1 }
+  ]
+}
+
+
+

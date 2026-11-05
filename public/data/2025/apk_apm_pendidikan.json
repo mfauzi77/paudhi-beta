@@ -1,0 +1,827 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "academicYear": "2025/2026",
+  "yearBasis": "Tahun ajaran 2025/2026 sesuai judul tabel; tidak disamakan dengan tahun kalender.",
+  "title": "APK dan APM Pendidikan Tahun Ajaran 2025/2026",
+  "unit": "%",
+  "geographicLevel": "province",
+  "population": null,
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "reference": "[5]",
+    "sourceUrl": null,
+    "notes": "Disalin dari lampiran pengguna. Sumber asli dan definisi kelompok usia belum disertakan. Angka nasional disalin dari tabel. Nilai APK di atas 100 dipertahankan."
+  },
+  "indicators": {
+    "apk_paud": {
+      "label": "APK PAUD",
+      "unit": "%",
+      "measureType": "APK",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apm_paud": {
+      "label": "APM PAUD",
+      "unit": "%",
+      "measureType": "APM",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apk_sd": {
+      "label": "APK SD",
+      "unit": "%",
+      "measureType": "APK",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apm_sd": {
+      "label": "APM SD",
+      "unit": "%",
+      "measureType": "APM",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apk_smp": {
+      "label": "APK SMP",
+      "unit": "%",
+      "measureType": "APK",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apm_smp": {
+      "label": "APM SMP",
+      "unit": "%",
+      "measureType": "APM",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apk_sma_sm": {
+      "label": "APK SMA SM",
+      "unit": "%",
+      "measureType": "APK",
+      "ageGroup": null,
+      "riskEligible": false
+    },
+    "apm_sma_sm": {
+      "label": "APM SMA SM",
+      "unit": "%",
+      "measureType": "APM",
+      "ageGroup": null,
+      "riskEligible": false
+    }
+  },
+  "analysisScope": {
+    "primaryFields": [
+      "apk_paud",
+      "apm_paud"
+    ],
+    "supportingFields": [
+      "apk_sd",
+      "apm_sd",
+      "apk_smp",
+      "apm_smp",
+      "apk_sma_sm",
+      "apm_sma_sm"
+    ],
+    "notes": "SD, SMP, SMA/SM adalah data pendukung pendidikan, bukan indikator PAUD. APK/APM belum digunakan dalam skor risiko atau forecasting sampai definisi dan konsistensi datanya diverifikasi."
+  },
+  "qualityFlags": [
+    {
+      "province": "Sumatera Utara",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sumatera Barat",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Riau",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Jambi",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sumatera Selatan",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Bengkulu",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Lampung",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kep. Bangka Belitung",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kepulauan Riau",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "DKI Jakarta",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Jawa Barat",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Jawa Tengah",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "DI Yogyakarta",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Jawa Timur",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Banten",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Bali",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Nusa Tenggara Barat",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Nusa Tenggara Timur",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kalimantan Barat",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kalimantan Tengah",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kalimantan Selatan",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kalimantan Timur",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Kalimantan Utara",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sulawesi Utara",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sulawesi Tengah",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sulawesi Selatan",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sulawesi Tenggara",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Gorontalo",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Sulawesi Barat",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Maluku",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Maluku Utara",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Papua",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Papua Barat",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Papua Selatan",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Papua Tengah",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Papua Pegunungan",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "Papua Barat Daya",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    },
+    {
+      "province": "INDONESIA",
+      "fields": [
+        "apk_paud",
+        "apm_paud"
+      ],
+      "issue": "APM PAUD lebih tinggi daripada APK PAUD pada tabel; definisi, penyebut, dan label kolom perlu diverifikasi. Angka tidak diubah."
+    }
+  ],
+  "provinces": [
+    {
+      "province": "Aceh",
+      "apk_paud": 56.95,
+      "apm_paud": 56.35,
+      "apk_sd": 99.85,
+      "apm_sd": 88.16,
+      "apk_smp": 97.25,
+      "apm_smp": 71.54,
+      "apk_sma_sm": 97.52,
+      "apm_sma_sm": 66.41
+    },
+    {
+      "province": "Sumatera Utara",
+      "apk_paud": 35.86,
+      "apm_paud": 50.67,
+      "apk_sd": 97.74,
+      "apm_sd": 87.07,
+      "apk_smp": 98.03,
+      "apm_smp": 73.32,
+      "apk_sma_sm": 93.64,
+      "apm_sma_sm": 66.39
+    },
+    {
+      "province": "Sumatera Barat",
+      "apk_paud": 39.54,
+      "apm_paud": 55.68,
+      "apk_sd": 100.81,
+      "apm_sd": 90.89,
+      "apk_smp": 97.64,
+      "apm_smp": 76.71,
+      "apk_sma_sm": 98.07,
+      "apm_sma_sm": 73.56
+    },
+    {
+      "province": "Riau",
+      "apk_paud": 34.4,
+      "apm_paud": 49.21,
+      "apk_sd": 100.69,
+      "apm_sd": 90.56,
+      "apk_smp": 95.89,
+      "apm_smp": 75.18,
+      "apk_sma_sm": 96.02,
+      "apm_sma_sm": 73.39
+    },
+    {
+      "province": "Jambi",
+      "apk_paud": 48.13,
+      "apm_paud": 61.03,
+      "apk_sd": 96.26,
+      "apm_sd": 86,
+      "apk_smp": 96.61,
+      "apm_smp": 72.53,
+      "apk_sma_sm": 93.96,
+      "apm_sma_sm": 67.86
+    },
+    {
+      "province": "Sumatera Selatan",
+      "apk_paud": 35.43,
+      "apm_paud": 51.74,
+      "apk_sd": 100.3,
+      "apm_sd": 88.51,
+      "apk_smp": 96.39,
+      "apm_smp": 71.24,
+      "apk_sma_sm": 92.75,
+      "apm_sma_sm": 63.17
+    },
+    {
+      "province": "Bengkulu",
+      "apk_paud": 43.2,
+      "apm_paud": 60.95,
+      "apk_sd": 100.54,
+      "apm_sd": 90.4,
+      "apk_smp": 94.95,
+      "apm_smp": 73.24,
+      "apk_sma_sm": 95.01,
+      "apm_sma_sm": 67.12
+    },
+    {
+      "province": "Lampung",
+      "apk_paud": 42.74,
+      "apm_paud": 63.93,
+      "apk_sd": 97.89,
+      "apm_sd": 90.3,
+      "apk_smp": 95.12,
+      "apm_smp": 76.97,
+      "apk_sma_sm": 95.72,
+      "apm_sma_sm": 70.83
+    },
+    {
+      "province": "Kep. Bangka Belitung",
+      "apk_paud": 36.79,
+      "apm_paud": 53.27,
+      "apk_sd": 100.4,
+      "apm_sd": 89.94,
+      "apk_smp": 95.58,
+      "apm_smp": 74.62,
+      "apk_sma_sm": 87.04,
+      "apm_sma_sm": 63.41
+    },
+    {
+      "province": "Kepulauan Riau",
+      "apk_paud": 30.47,
+      "apm_paud": 45.35,
+      "apk_sd": 101.07,
+      "apm_sd": 92.37,
+      "apk_smp": 95.45,
+      "apm_smp": 77.5,
+      "apk_sma_sm": 98,
+      "apm_sma_sm": 77.76
+    },
+    {
+      "province": "DKI Jakarta",
+      "apk_paud": 27.6,
+      "apm_paud": 38.12,
+      "apk_sd": 98.22,
+      "apm_sd": 92.32,
+      "apk_smp": 95.72,
+      "apm_smp": 80.99,
+      "apk_sma_sm": 89.9,
+      "apm_sma_sm": 74.14
+    },
+    {
+      "province": "Jawa Barat",
+      "apk_paud": 42.91,
+      "apm_paud": 62.12,
+      "apk_sd": 100.93,
+      "apm_sd": 94.37,
+      "apk_smp": 98.35,
+      "apm_smp": 80.73,
+      "apk_sma_sm": 102.35,
+      "apm_sma_sm": 77.45
+    },
+    {
+      "province": "Jawa Tengah",
+      "apk_paud": 55.02,
+      "apm_paud": 71.58,
+      "apk_sd": 99.17,
+      "apm_sd": 91.88,
+      "apk_smp": 96.24,
+      "apm_smp": 76.69,
+      "apk_sma_sm": 97.07,
+      "apm_sma_sm": 72.04
+    },
+    {
+      "province": "DI Yogyakarta",
+      "apk_paud": 78.24,
+      "apm_paud": 86.5,
+      "apk_sd": 99,
+      "apm_sd": 94.76,
+      "apk_smp": 99.56,
+      "apm_smp": 86.78,
+      "apk_sma_sm": 105.79,
+      "apm_sma_sm": 87.04
+    },
+    {
+      "province": "Jawa Timur",
+      "apk_paud": 69.75,
+      "apm_paud": 84.2,
+      "apk_sd": 99.07,
+      "apm_sd": 92.95,
+      "apk_smp": 96.82,
+      "apm_smp": 79.41,
+      "apk_sma_sm": 104.69,
+      "apm_sma_sm": 81.43
+    },
+    {
+      "province": "Banten",
+      "apk_paud": 36.08,
+      "apm_paud": 52.43,
+      "apk_sd": 99.54,
+      "apm_sd": 91.44,
+      "apk_smp": 95.2,
+      "apm_smp": 74.76,
+      "apk_sma_sm": 101.28,
+      "apm_sma_sm": 73.55
+    },
+    {
+      "province": "Bali",
+      "apk_paud": 41.29,
+      "apm_paud": 63.3,
+      "apk_sd": 103.21,
+      "apm_sd": 94.95,
+      "apk_smp": 96.8,
+      "apm_smp": 80.71,
+      "apk_sma_sm": 96.58,
+      "apm_sma_sm": 77.46
+    },
+    {
+      "province": "Nusa Tenggara Barat",
+      "apk_paud": 63.73,
+      "apm_paud": 75.31,
+      "apk_sd": 100.19,
+      "apm_sd": 91.42,
+      "apk_smp": 96.94,
+      "apm_smp": 75.39,
+      "apk_sma_sm": 99.82,
+      "apm_sma_sm": 69.88
+    },
+    {
+      "province": "Nusa Tenggara Timur",
+      "apk_paud": 44.4,
+      "apm_paud": 60.87,
+      "apk_sd": 101.04,
+      "apm_sd": 88.15,
+      "apk_smp": 94.99,
+      "apm_smp": 69.79,
+      "apk_sma_sm": 95.62,
+      "apm_sma_sm": 66.9
+    },
+    {
+      "province": "Kalimantan Barat",
+      "apk_paud": 29.32,
+      "apm_paud": 43.86,
+      "apk_sd": 102.23,
+      "apm_sd": 90.22,
+      "apk_smp": 95.25,
+      "apm_smp": 72.08,
+      "apk_sma_sm": 86.78,
+      "apm_sma_sm": 61.32
+    },
+    {
+      "province": "Kalimantan Tengah",
+      "apk_paud": 50.57,
+      "apm_paud": 69.38,
+      "apk_sd": 104.79,
+      "apm_sd": 95.09,
+      "apk_smp": 95.41,
+      "apm_smp": 73.77,
+      "apk_sma_sm": 85.69,
+      "apm_sma_sm": 61.34
+    },
+    {
+      "province": "Kalimantan Selatan",
+      "apk_paud": 53.98,
+      "apm_paud": 70.15,
+      "apk_sd": 99.8,
+      "apm_sd": 90.7,
+      "apk_smp": 97.15,
+      "apm_smp": 71.49,
+      "apk_sma_sm": 96.89,
+      "apm_sma_sm": 69.19
+    },
+    {
+      "province": "Kalimantan Timur",
+      "apk_paud": 38.23,
+      "apm_paud": 55.82,
+      "apk_sd": 99.8,
+      "apm_sd": 91.63,
+      "apk_smp": 95.18,
+      "apm_smp": 77.79,
+      "apk_sma_sm": 93.76,
+      "apm_sma_sm": 70.43
+    },
+    {
+      "province": "Kalimantan Utara",
+      "apk_paud": 39.45,
+      "apm_paud": 53.99,
+      "apk_sd": 98.77,
+      "apm_sd": 88.87,
+      "apk_smp": 96.43,
+      "apm_smp": 76.17,
+      "apk_sma_sm": 90.72,
+      "apm_sma_sm": 66.72
+    },
+    {
+      "province": "Sulawesi Utara",
+      "apk_paud": 40.84,
+      "apm_paud": 55.84,
+      "apk_sd": 98.28,
+      "apm_sd": 87.16,
+      "apk_smp": 94.4,
+      "apm_smp": 68.42,
+      "apk_sma_sm": 100.97,
+      "apm_sma_sm": 63
+    },
+    {
+      "province": "Sulawesi Tengah",
+      "apk_paud": 50.43,
+      "apm_paud": 66.39,
+      "apk_sd": 98.08,
+      "apm_sd": 88.24,
+      "apk_smp": 95.16,
+      "apm_smp": 72.44,
+      "apk_sma_sm": 92.68,
+      "apm_sma_sm": 65.66
+    },
+    {
+      "province": "Sulawesi Selatan",
+      "apk_paud": 39.17,
+      "apm_paud": 56.49,
+      "apk_sd": 98.1,
+      "apm_sd": 87.55,
+      "apk_smp": 94.17,
+      "apm_smp": 71.84,
+      "apk_sma_sm": 91.1,
+      "apm_sma_sm": 64.4
+    },
+    {
+      "province": "Sulawesi Tenggara",
+      "apk_paud": 44.06,
+      "apm_paud": 60.87,
+      "apk_sd": 96.68,
+      "apm_sd": 85.24,
+      "apk_smp": 96.56,
+      "apm_smp": 69.56,
+      "apk_sma_sm": 101,
+      "apm_sma_sm": 65.15
+    },
+    {
+      "province": "Gorontalo",
+      "apk_paud": 56.23,
+      "apm_paud": 67.45,
+      "apk_sd": 98.91,
+      "apm_sd": 88.07,
+      "apk_smp": 95.25,
+      "apm_smp": 72.18,
+      "apk_sma_sm": 86.39,
+      "apm_sma_sm": 61.67
+    },
+    {
+      "province": "Sulawesi Barat",
+      "apk_paud": 52.25,
+      "apm_paud": 65.14,
+      "apk_sd": 98.8,
+      "apm_sd": 88.7,
+      "apk_smp": 96.78,
+      "apm_smp": 72.01,
+      "apk_sma_sm": 86.28,
+      "apm_sma_sm": 59.61
+    },
+    {
+      "province": "Maluku",
+      "apk_paud": 46.68,
+      "apm_paud": 53.47,
+      "apk_sd": 95.88,
+      "apm_sd": 83.7,
+      "apk_smp": 94.14,
+      "apm_smp": 67.44,
+      "apk_sma_sm": 82.78,
+      "apm_sma_sm": 55.98
+    },
+    {
+      "province": "Maluku Utara",
+      "apk_paud": 56.8,
+      "apm_paud": 66,
+      "apk_sd": 95.22,
+      "apm_sd": 84.18,
+      "apk_smp": 96.11,
+      "apm_smp": 68.17,
+      "apk_sma_sm": 98.03,
+      "apm_sma_sm": 63.38
+    },
+    {
+      "province": "Papua",
+      "apk_paud": 30.73,
+      "apm_paud": 40.18,
+      "apk_sd": 97.22,
+      "apm_sd": 81.98,
+      "apk_smp": 95.65,
+      "apm_smp": 68.39,
+      "apk_sma_sm": 80.39,
+      "apm_sma_sm": 56.16
+    },
+    {
+      "province": "Papua Barat",
+      "apk_paud": 33.36,
+      "apm_paud": 43.06,
+      "apk_sd": 94.73,
+      "apm_sd": 79.3,
+      "apk_smp": 95.38,
+      "apm_smp": 66.28,
+      "apk_sma_sm": 79.97,
+      "apm_sma_sm": 52.89
+    },
+    {
+      "province": "Papua Selatan",
+      "apk_paud": 25.69,
+      "apm_paud": 32.59,
+      "apk_sd": 92.91,
+      "apm_sd": 65.71,
+      "apk_smp": 77.98,
+      "apm_smp": 48.44,
+      "apk_sma_sm": 73.56,
+      "apm_sma_sm": 43.8
+    },
+    {
+      "province": "Papua Tengah",
+      "apk_paud": 46.06,
+      "apm_paud": 62.55,
+      "apk_sd": 99.26,
+      "apm_sd": 70.56,
+      "apk_smp": 80.91,
+      "apm_smp": 47.36,
+      "apk_sma_sm": 48.52,
+      "apm_sma_sm": 27.97
+    },
+    {
+      "province": "Papua Pegunungan",
+      "apk_paud": 33.8,
+      "apm_paud": 36.52,
+      "apk_sd": 94.14,
+      "apm_sd": 61.99,
+      "apk_smp": 86.82,
+      "apm_smp": 44.31,
+      "apk_sma_sm": 39.08,
+      "apm_sma_sm": 21.64
+    },
+    {
+      "province": "Papua Barat Daya",
+      "apk_paud": 23.14,
+      "apm_paud": 34.45,
+      "apk_sd": 93.48,
+      "apm_sd": 78.06,
+      "apk_smp": 94.94,
+      "apm_smp": 64.32,
+      "apk_sma_sm": 74.09,
+      "apm_sma_sm": 49.01
+    }
+  ],
+  "national": {
+    "province": "INDONESIA",
+    "apk_paud": 46.65,
+    "apm_paud": 62.47,
+    "apk_sd": 99.51,
+    "apm_sd": 90.74,
+    "apk_smp": 96.46,
+    "apm_smp": 76.04,
+    "apk_sma_sm": 96.87,
+    "apm_sma_sm": 71.56
+  }
+}

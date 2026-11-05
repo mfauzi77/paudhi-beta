@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "yearBasis": "Tahun 2025 sesuai judul tabel pengguna.",
+  "title": "Populasi Anak Usia Dini per Provinsi (2025)",
+  "geographicLevel": "province",
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "sourceUrl": null,
+    "notes": "Disalin dari lampiran pengguna. Referensi [1], [2], dan [3] belum disertakan. Jumlah usia 0–6 tidak diberikan. Kelompok usia tidak dijumlahkan karena saling tumpang tindih. Angka nasional dipertahankan."
+  },
+  "indicators": {
+    "proporsi_0_6": {
+      "label": "Proporsi usia 0–6 dari total penduduk",
+      "unit": "%",
+      "ageGroup": "0–6 tahun",
+      "references": [
+        "[1]",
+        "[2]"
+      ]
+    },
+    "jumlah_3_6": {
+      "label": "Jumlah penduduk usia 3–6",
+      "unit": "jiwa",
+      "ageGroup": "3–6 tahun",
+      "references": [
+        "[3]"
+      ]
+    },
+    "jumlah_5_6": {
+      "label": "Jumlah penduduk usia 5–6",
+      "unit": "jiwa",
+      "ageGroup": "5–6 tahun",
+      "references": [
+        "[3]"
+      ]
+    }
+  },
+  "qualityFlags": [
+    {
+      "field": "jumlah_5_6",
+      "provinceSum": 9426815,
+      "suppliedNational": 9421899,
+      "issue": "Jumlah provinsi berbeda dari angka nasional yang diberikan. Keduanya dipertahankan; perlu verifikasi sumber."
+    }
+  ],
+  "provinces": [
+    {
+      "province": "Aceh",
+      "proporsi_0_6": 12.53,
+      "jumlah_3_6": 434794,
+      "jumlah_5_6": 221206
+    },
+    {
+      "province": "Sumatera Utara",
+      "proporsi_0_6": 12.58,
+      "jumlah_3_6": 957255,
+      "jumlah_5_6": 513596
+    },
+    {
+      "province": "Sumatera Barat",
+      "proporsi_0_6": 11.97,
+      "jumlah_3_6": 376948,
+      "jumlah_5_6": 195490
+    },
+    {
+      "province": "Riau",
+      "proporsi_0_6": 12.14,
+      "jumlah_3_6": 492789,
+      "jumlah_5_6": 265401
+    },
+    {
+      "province": "Jambi",
+      "proporsi_0_6": 11.91,
+      "jumlah_3_6": 256968,
+      "jumlah_5_6": 134567
+    },
+    {
+      "province": "Sumatera Selatan",
+      "proporsi_0_6": 11.54,
+      "jumlah_3_6": 599909,
+      "jumlah_5_6": 315540
+    },
+    {
+      "province": "Bengkulu",
+      "proporsi_0_6": 11.92,
+      "jumlah_3_6": 138232,
+      "jumlah_5_6": 70792
+    },
+    {
+      "province": "Lampung",
+      "proporsi_0_6": 11.59,
+      "jumlah_3_6": 584531,
+      "jumlah_5_6": 307196
+    },
+    {
+      "province": "Kep. Bangka Belitung",
+      "proporsi_0_6": 11.6,
+      "jumlah_3_6": 99877,
+      "jumlah_5_6": 52990
+    },
+    {
+      "province": "Kepulauan Riau",
+      "proporsi_0_6": 12.15,
+      "jumlah_3_6": 151074,
+      "jumlah_5_6": 79457
+    },
+    {
+      "province": "DKI Jakarta",
+      "proporsi_0_6": 9.92,
+      "jumlah_3_6": 657072,
+      "jumlah_5_6": 350827
+    },
+    {
+      "province": "Jawa Barat",
+      "proporsi_0_6": 10.93,
+      "jumlah_3_6": 3402154,
+      "jumlah_5_6": 1797939
+    },
+    {
+      "province": "Jawa Tengah",
+      "proporsi_0_6": 10.26,
+      "jumlah_3_6": 2205200,
+      "jumlah_5_6": 1162111
+    },
+    {
+      "province": "DI Yogyakarta",
+      "proporsi_0_6": 8.94,
+      "jumlah_3_6": 181584,
+      "jumlah_5_6": 96967
+    },
+    {
+      "province": "Jawa Timur",
+      "proporsi_0_6": 9.6,
+      "jumlah_3_6": 2270997,
+      "jumlah_5_6": 1199103
+    },
+    {
+      "province": "Banten",
+      "proporsi_0_6": 11.02,
+      "jumlah_3_6": 910599,
+      "jumlah_5_6": 481818
+    },
+    {
+      "province": "Bali",
+      "proporsi_0_6": 9.68,
+      "jumlah_3_6": 234915,
+      "jumlah_5_6": 123782
+    },
+    {
+      "province": "Nusa Tenggara Barat",
+      "proporsi_0_6": 12.45,
+      "jumlah_3_6": 417299,
+      "jumlah_5_6": 221289
+    },
+    {
+      "province": "Nusa Tenggara Timur",
+      "proporsi_0_6": 13.95,
+      "jumlah_3_6": 363910,
+      "jumlah_5_6": 202695
+    },
+    {
+      "province": "Kalimantan Barat",
+      "proporsi_0_6": 11.99,
+      "jumlah_3_6": 377124,
+      "jumlah_5_6": 193418
+    },
+    {
+      "province": "Kalimantan Tengah",
+      "proporsi_0_6": 11.99,
+      "jumlah_3_6": 187511,
+      "jumlah_5_6": 99028
+    },
+    {
+      "province": "Kalimantan Selatan",
+      "proporsi_0_6": 11.69,
+      "jumlah_3_6": 276176,
+      "jumlah_5_6": 144044
+    },
+    {
+      "province": "Kalimantan Timur",
+      "proporsi_0_6": 10.95,
+      "jumlah_3_6": 285991,
+      "jumlah_5_6": 150206
+    },
+    {
+      "province": "Kalimantan Utara",
+      "proporsi_0_6": 12.03,
+      "jumlah_3_6": 56148,
+      "jumlah_5_6": 29091
+    },
+    {
+      "province": "Sulawesi Utara",
+      "proporsi_0_6": 10.28,
+      "jumlah_3_6": 140647,
+      "jumlah_5_6": 74353
+    },
+    {
+      "province": "Sulawesi Tengah",
+      "proporsi_0_6": 11.97,
+      "jumlah_3_6": 224479,
+      "jumlah_5_6": 116502
+    },
+    {
+      "province": "Sulawesi Selatan",
+      "proporsi_0_6": 11.51,
+      "jumlah_3_6": 630437,
+      "jumlah_5_6": 329530
+    },
+    {
+      "province": "Sulawesi Tenggara",
+      "proporsi_0_6": 13.17,
+      "jumlah_3_6": 218080,
+      "jumlah_5_6": 113539
+    },
+    {
+      "province": "Gorontalo",
+      "proporsi_0_6": 11.94,
+      "jumlah_3_6": 85569,
+      "jumlah_5_6": 44334
+    },
+    {
+      "province": "Sulawesi Barat",
+      "proporsi_0_6": 13.32,
+      "jumlah_3_6": 111001,
+      "jumlah_5_6": 56003
+    },
+    {
+      "province": "Maluku",
+      "proporsi_0_6": 12.82,
+      "jumlah_3_6": 131119,
+      "jumlah_5_6": 71908
+    },
+    {
+      "province": "Maluku Utara",
+      "proporsi_0_6": 12.56,
+      "jumlah_3_6": 90071,
+      "jumlah_5_6": 48750
+    },
+    {
+      "province": "Papua",
+      "proporsi_0_6": 14.18,
+      "jumlah_3_6": 70879,
+      "jumlah_5_6": 38418
+    },
+    {
+      "province": "Papua Barat",
+      "proporsi_0_6": 13.32,
+      "jumlah_3_6": 42973,
+      "jumlah_5_6": 22995
+    },
+    {
+      "province": "Papua Selatan",
+      "proporsi_0_6": 17.58,
+      "jumlah_3_6": 48444,
+      "jumlah_5_6": 27300
+    },
+    {
+      "province": "Papua Tengah",
+      "proporsi_0_6": 12.81,
+      "jumlah_3_6": 58923,
+      "jumlah_5_6": 32548
+    },
+    {
+      "province": "Papua Pegunungan",
+      "proporsi_0_6": 11.75,
+      "jumlah_3_6": 34961,
+      "jumlah_5_6": 20193
+    },
+    {
+      "province": "Papua Barat Daya",
+      "proporsi_0_6": 13.5,
+      "jumlah_3_6": 40735,
+      "jumlah_5_6": 21889
+    }
+  ],
+  "national": {
+    "province": "INDONESIA",
+    "proporsi_0_6": 11.08,
+    "jumlah_3_6": 17847375,
+    "jumlah_5_6": 9421899
+  }
+}

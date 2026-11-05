@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "yearBasis": "Konteks pengumpulan data 2025 dari pengguna; tahun belum tercantum pada tabel perkawinan anak yang dikirim.",
+  "title": "Persentase Perkawinan Anak per Provinsi",
+  "unit": "%",
+  "geographicLevel": "province",
+  "population": null,
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "institutionAsProvided": "BPS",
+    "platformAsProvided": "BPS Open Data",
+    "sourceUrl": null,
+    "notes": "Disalin dari tabel pengguna, bukan diambil melalui API BPS. Tahun pengamatan, sumber asli, populasi acuan, kelompok usia, dan definisi operasional perkawinan anak belum diverifikasi. Angka nasional dipertahankan dari tabel, bukan rata-rata provinsi. Nilai disimpan dalam satuan persen: 1.39 berarti 1,39%."
+  },
+  "provinceNameMappings": {
+    "KEP. RIAU": "Kepulauan Riau"
+  },
+  "indicators": {
+    "perkawinan_anak": {
+      "label": "Perkawinan Anak",
+      "unit": "%",
+      "definition": null,
+      "ageGroup": null
+    }
+  },
+  "provinces": [
+    {
+      "province": "Aceh",
+      "perkawinan_anak": 1.39
+    },
+    {
+      "province": "Sumatera Utara",
+      "perkawinan_anak": 1.54
+    },
+    {
+      "province": "Sumatera Barat",
+      "perkawinan_anak": 3.08
+    },
+    {
+      "province": "Riau",
+      "perkawinan_anak": 2.78
+    },
+    {
+      "province": "Jambi",
+      "perkawinan_anak": 5.1
+    },
+    {
+      "province": "Sumatera Selatan",
+      "perkawinan_anak": 8.09
+    },
+    {
+      "province": "Bengkulu",
+      "perkawinan_anak": 4.71
+    },
+    {
+      "province": "Lampung",
+      "perkawinan_anak": 5.44
+    },
+    {
+      "province": "Kep. Bangka Belitung",
+      "perkawinan_anak": 8.41
+    },
+    {
+      "province": "Kepulauan Riau",
+      "perkawinan_anak": 1
+    },
+    {
+      "province": "DKI Jakarta",
+      "perkawinan_anak": 0.86
+    },
+    {
+      "province": "Jawa Barat",
+      "perkawinan_anak": 4.03
+    },
+    {
+      "province": "Jawa Tengah",
+      "perkawinan_anak": 4.2
+    },
+    {
+      "province": "DI Yogyakarta",
+      "perkawinan_anak": 0.79
+    },
+    {
+      "province": "Jawa Timur",
+      "perkawinan_anak": 5.49
+    },
+    {
+      "province": "Banten",
+      "perkawinan_anak": 2.3
+    },
+    {
+      "province": "Bali",
+      "perkawinan_anak": 2.44
+    },
+    {
+      "province": "Nusa Tenggara Barat",
+      "perkawinan_anak": 11.31
+    },
+    {
+      "province": "Nusa Tenggara Timur",
+      "perkawinan_anak": 5.14
+    },
+    {
+      "province": "Kalimantan Barat",
+      "perkawinan_anak": 8.82
+    },
+    {
+      "province": "Kalimantan Tengah",
+      "perkawinan_anak": 8.53
+    },
+    {
+      "province": "Kalimantan Selatan",
+      "perkawinan_anak": 8.38
+    },
+    {
+      "province": "Kalimantan Timur",
+      "perkawinan_anak": 4.11
+    },
+    {
+      "province": "Kalimantan Utara",
+      "perkawinan_anak": 6.86
+    },
+    {
+      "province": "Sulawesi Utara",
+      "perkawinan_anak": 7.25
+    },
+    {
+      "province": "Sulawesi Tengah",
+      "perkawinan_anak": 7.2
+    },
+    {
+      "province": "Sulawesi Selatan",
+      "perkawinan_anak": 6.33
+    },
+    {
+      "province": "Sulawesi Tenggara",
+      "perkawinan_anak": 8.19
+    },
+    {
+      "province": "Gorontalo",
+      "perkawinan_anak": 6.08
+    },
+    {
+      "province": "Sulawesi Barat",
+      "perkawinan_anak": 11.21
+    },
+    {
+      "province": "Maluku",
+      "perkawinan_anak": 5.9
+    },
+    {
+      "province": "Maluku Utara",
+      "perkawinan_anak": 7.27
+    },
+    {
+      "province": "Papua Barat",
+      "perkawinan_anak": 12.25
+    },
+    {
+      "province": "Papua Barat Daya",
+      "perkawinan_anak": 6.49
+    },
+    {
+      "province": "Papua",
+      "perkawinan_anak": 1.67
+    },
+    {
+      "province": "Papua Selatan",
+      "perkawinan_anak": 12.94
+    },
+    {
+      "province": "Papua Tengah",
+      "perkawinan_anak": 2.63
+    },
+    {
+      "province": "Papua Pegunungan",
+      "perkawinan_anak": 6.41
+    }
+  ],
+  "national": {
+    "province": "INDONESIA",
+    "perkawinan_anak": 4.56
+  }
+}

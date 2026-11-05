@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "yearBasis": "Konteks pengumpulan data 2025 dari pengguna; tahun belum tercantum pada tabel satuan PAUD yang dikirim.",
+  "title": "Jumlah Satuan PAUD menurut Jenis Satuan dan Provinsi",
+  "unit": "lembaga",
+  "geographicLevel": "province",
+  "source": {
+    "type": "user_provided",
+    "verificationStatus": "pending_original_references",
+    "institutionAsProvided": "Kemendikbudristek",
+    "platformAsProvided": "Dapodik",
+    "sourceUrl": null,
+    "notes": "Disalin dari tabel pengguna, bukan diambil melalui API Dapodik. Tahun pengamatan, sumber asli, dan cakupan satuan sederajat belum diverifikasi. Titik pada tabel adalah pemisah ribuan, bukan desimal. Angka nol dipertahankan. Luar Negeri disimpan terpisah dari 38 provinsi. Total nasional tidak diberikan. Akreditasi dan rasio guru-murid belum diberikan."
+  },
+  "provinceNameMappings": {
+    "D.K.I. Jakarta": "DKI Jakarta",
+    "D.I. Yogyakarta": "DI Yogyakarta",
+    "Kepulauan Bangka Belitung": "Kep. Bangka Belitung"
+  },
+  "indicators": {
+    "tk_sederajat": { "label": "TK (Sederajat)", "unit": "lembaga" },
+    "kb_sederajat": { "label": "KB (Sederajat)", "unit": "lembaga" },
+    "tpa": { "label": "TPA", "unit": "lembaga" },
+    "sps": { "label": "SPS", "unit": "lembaga" }
+  },
+  "pendingIndicators": [
+    { "id": "akreditasi", "label": "Status Akreditasi", "status": "not_provided" },
+    { "id": "rasio_guru_murid", "label": "Rasio Guru-Murid", "status": "not_provided" }
+  ],
+  "provinces": [
+    { "province": "DKI Jakarta", "tk_sederajat": 2941, "kb_sederajat": 601, "tpa": 54, "sps": 1759 },
+    { "province": "Jawa Barat", "tk_sederajat": 17542, "kb_sederajat": 15987, "tpa": 157, "sps": 6477 },
+    { "province": "Jawa Tengah", "tk_sederajat": 19390, "kb_sederajat": 10057, "tpa": 562, "sps": 2740 },
+    { "province": "DI Yogyakarta", "tk_sederajat": 2400, "kb_sederajat": 1536, "tpa": 219, "sps": 911 },
+    { "province": "Jawa Timur", "tk_sederajat": 26497, "kb_sederajat": 14903, "tpa": 436, "sps": 4105 },
+    { "province": "Aceh", "tk_sederajat": 3192, "kb_sederajat": 2071, "tpa": 123, "sps": 133 },
+    { "province": "Sumatera Utara", "tk_sederajat": 5764, "kb_sederajat": 4586, "tpa": 48, "sps": 347 },
+    { "province": "Sumatera Barat", "tk_sederajat": 3255, "kb_sederajat": 1515, "tpa": 97, "sps": 302 },
+    { "province": "Riau", "tk_sederajat": 3271, "kb_sederajat": 1862, "tpa": 115, "sps": 96 },
+    { "province": "Jambi", "tk_sederajat": 1873, "kb_sederajat": 1808, "tpa": 63, "sps": 184 },
+    { "province": "Sumatera Selatan", "tk_sederajat": 3222, "kb_sederajat": 2924, "tpa": 16, "sps": 118 },
+    { "province": "Lampung", "tk_sederajat": 4150, "kb_sederajat": 2238, "tpa": 33, "sps": 187 },
+    { "province": "Kalimantan Barat", "tk_sederajat": 1414, "kb_sederajat": 2113, "tpa": 25, "sps": 60 },
+    { "province": "Kalimantan Tengah", "tk_sederajat": 2297, "kb_sederajat": 717, "tpa": 44, "sps": 133 },
+    { "province": "Kalimantan Selatan", "tk_sederajat": 2980, "kb_sederajat": 1423, "tpa": 157, "sps": 47 },
+    { "province": "Kalimantan Timur", "tk_sederajat": 1717, "kb_sederajat": 1076, "tpa": 79, "sps": 122 },
+    { "province": "Sulawesi Utara", "tk_sederajat": 1939, "kb_sederajat": 825, "tpa": 10, "sps": 62 },
+    { "province": "Sulawesi Tengah", "tk_sederajat": 2257, "kb_sederajat": 1196, "tpa": 8, "sps": 43 },
+    { "province": "Sulawesi Selatan", "tk_sederajat": 5574, "kb_sederajat": 1672, "tpa": 44, "sps": 190 },
+    { "province": "Sulawesi Tenggara", "tk_sederajat": 2380, "kb_sederajat": 471, "tpa": 5, "sps": 8 },
+    { "province": "Maluku", "tk_sederajat": 1183, "kb_sederajat": 908, "tpa": 1, "sps": 70 },
+    { "province": "Bali", "tk_sederajat": 1766, "kb_sederajat": 445, "tpa": 54, "sps": 16 },
+    { "province": "Nusa Tenggara Barat", "tk_sederajat": 3115, "kb_sederajat": 2705, "tpa": 26, "sps": 195 },
+    { "province": "Nusa Tenggara Timur", "tk_sederajat": 1919, "kb_sederajat": 3863, "tpa": 27, "sps": 343 },
+    { "province": "Papua", "tk_sederajat": 320, "kb_sederajat": 317, "tpa": 3, "sps": 106 },
+    { "province": "Bengkulu", "tk_sederajat": 1371, "kb_sederajat": 634, "tpa": 70, "sps": 61 },
+    { "province": "Maluku Utara", "tk_sederajat": 808, "kb_sederajat": 776, "tpa": 0, "sps": 46 },
+    { "province": "Banten", "tk_sederajat": 4379, "kb_sederajat": 3771, "tpa": 30, "sps": 515 },
+    { "province": "Kep. Bangka Belitung", "tk_sederajat": 455, "kb_sederajat": 368, "tpa": 44, "sps": 55 },
+    { "province": "Gorontalo", "tk_sederajat": 886, "kb_sederajat": 590, "tpa": 8, "sps": 48 },
+    { "province": "Kepulauan Riau", "tk_sederajat": 856, "kb_sederajat": 427, "tpa": 17, "sps": 120 },
+    { "province": "Papua Barat", "tk_sederajat": 336, "kb_sederajat": 266, "tpa": 6, "sps": 2 },
+    { "province": "Sulawesi Barat", "tk_sederajat": 948, "kb_sederajat": 752, "tpa": 14, "sps": 10 },
+    { "province": "Kalimantan Utara", "tk_sederajat": 243, "kb_sederajat": 420, "tpa": 16, "sps": 8 },
+    { "province": "Papua Tengah", "tk_sederajat": 358, "kb_sederajat": 48, "tpa": 1, "sps": 17 },
+    { "province": "Papua Selatan", "tk_sederajat": 204, "kb_sederajat": 110, "tpa": 0, "sps": 13 },
+    { "province": "Papua Pegunungan", "tk_sederajat": 202, "kb_sederajat": 131, "tpa": 1, "sps": 39 },
+    { "province": "Papua Barat Daya", "tk_sederajat": 279, "kb_sederajat": 96, "tpa": 0, "sps": 12 }
+  ],
+  "overseas": { "region": "Luar Negeri", "tk_sederajat": 9, "kb_sederajat": 0, "tpa": 0, "sps": 0 },
+  "national": null
+}
