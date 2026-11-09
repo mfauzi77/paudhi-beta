@@ -52,6 +52,7 @@ const PetaDaycarePage = lazy(() => import("./pages/PetaDaycarePage"));
 import PageMetadata from "./components/PageMetadata";
 import PageTransition from "./components/PageTransition";
 import NotFoundPage from "./pages/NotFoundPage";
+import AccessibilityOptions from "./components/AccessibilityOptions";
 
 function HomePage() {
   return (
@@ -87,6 +88,7 @@ function AppWrapper() {
   return (
     <>
       <PageMetadata />
+      <AccessibilityOptions />
       {!location.pathname.startsWith("/admin") && !location.pathname.startsWith("/ceria") && <Navigation />}
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>

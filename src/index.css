@@ -1,5 +1,38 @@
 @import "tailwindcss" source("./");
 
+.accessibility-widget { position: fixed; top: 5rem; left: 0; z-index: 10000; font-family: Arial, sans-serif; color: #111; }
+.accessibility-toggle { position: absolute; top: 0; left: 0; display: grid; width: 60px; height: 60px; place-items: center; border: 0; background: #ed0046; color: #fff; font-size: 1.5rem; cursor: pointer; transition: left .25s ease; }
+.accessibility-widget.is-open .accessibility-toggle { left: 252px; }
+.accessibility-toggle:focus-visible, .accessibility-panel button:focus-visible { outline: 3px solid #1d4ed8; outline-offset: -3px; }
+.accessibility-panel { position: absolute; top: 0; left: 0; box-sizing: border-box; width: 252px; max-height: calc(100vh - 5rem); overflow-y: auto; border: 1px solid #222; background: #fff; color: #111; box-shadow: 0 2px 10px #0002; }
+.accessibility-panel-header { padding: 1.45rem 1rem .75rem; text-align: center; }
+.accessibility-panel-header h2 { margin: 0; font-size: 1.25rem; font-weight: 700; }
+.accessibility-languages { display: flex; margin: 0 .5rem .9rem; padding: .2rem; border-radius: 999px; background: #ddd; }
+.accessibility-languages button { flex: 1; padding: .35rem .25rem; border: 0; border-radius: 999px; background: transparent; color: #111; font-size: .9rem; font-weight: 700; cursor: pointer; }
+.accessibility-languages button.selected { background: #fff; box-shadow: 0 1px 4px #0004; }
+.accessibility-options { padding: 0 .75rem .5rem; }
+.accessibility-option { display: flex; width: 100%; align-items: center; gap: .7rem; padding: .34rem .2rem; border: 0; background: transparent; color: #171717; text-align: left; font-size: .875rem; cursor: pointer; }
+.accessibility-option i { width: 1rem; text-align: center; font-size: 1rem; }
+.accessibility-option.active { color: #b00035; font-weight: 700; }
+@media (max-width: 360px) {
+  .accessibility-panel { width: calc(100vw - 60px); }
+  .accessibility-widget.is-open .accessibility-toggle { left: calc(100vw - 60px); }
+}
+html.accessibility-underline-links a { text-decoration: underline !important; text-underline-offset: .15em; }
+html.accessibility-grayscale body { filter: grayscale(1); }
+html.accessibility-high-contrast body { background: #000 !important; color: #fff !important; }
+html.accessibility-high-contrast body :where(p, span, li, h1, h2, h3, h4, h5, h6, label, small, strong, em) { color: #fff !important; }
+html.accessibility-high-contrast body :where(a) { color: #ffeb3b !important; text-decoration: underline !important; }
+html.accessibility-high-contrast body :where(section, article, nav, header, footer, main, div) { border-color: #fff !important; }
+html.accessibility-high-contrast body :where(button) { outline-color: #ffeb3b; }
+html.accessibility-high-contrast .accessibility-panel, html.accessibility-dark-background body :where(main, section, article, nav, footer, header) { background: #111 !important; color: #fff !important; }
+html.accessibility-high-contrast .accessibility-panel :where(span, h2, label, button) { color: #fff !important; }
+html.accessibility-dark-background body :where(p, li, h1, h2, h3, h4, h5, h6, label, small, strong, em) { color: #fff !important; }
+html.accessibility-light-background body :where(main, section, article, nav, footer, header) { background: #fffef0 !important; }
+html.accessibility-readable-font body { font-family: Arial, Verdana, sans-serif !important; letter-spacing: .03em; line-height: 1.65; }
+html.accessibility-align-text body :where(p, li) { text-align: left !important; }
+html.accessibility-reduce-motion *, html.accessibility-reduce-motion *::before, html.accessibility-reduce-motion *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+
 /* Image hover effects and animations */
 .image-hover-scale {
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
