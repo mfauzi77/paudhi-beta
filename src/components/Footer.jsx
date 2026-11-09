@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-pink-700 text-white py-5" role="contentinfo">
+    <footer className="bg-yellow-400 text-gray-900 py-5" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Content */}
@@ -21,13 +21,13 @@ const Footer = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-white text-base">Makna Logo PAUDHI</span>
+              <span className="text-gray-900 text-base">Makna Logo PAUDHI</span>
             </a>
           </div>
 
           {/* Navigasi */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-6">
+            <h3 className="text-gray-900 text-lg font-semibold mb-6">
               Navigasi
             </h3>
             <nav>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="https://asiksupport-stg.dto.kemkes.go.id/"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -45,7 +45,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="https://api.whatsapp.com/send?phone=628111129129"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -61,7 +61,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-6">
+            <h3 className="text-gray-900 text-lg font-semibold mb-6">
               Profil
             </h3>
             <nav>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="/about"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                   >
                     Tentang
                   </a>
@@ -77,7 +77,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="/faq"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-gray-700 hover:text-gray-900 transition-colors duration-200"
                   >
                     Tanya Jawab PAUDHI
                   </a>
@@ -94,14 +94,14 @@ const Footer = () => {
                 alt="Logo Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan"
                 className="h-12 w-auto mb-4"
               />
-              <div className="text-white font-semibold text-base mb-1">
+              <div className="text-gray-900 font-semibold text-base mb-1">
                 Kementerian Koordinator Bidang
               </div>
-              <div className="text-white font-semibold text-base mb-4">
+              <div className="text-gray-900 font-semibold text-base mb-4">
                 Pembangunan Manusia dan Kebudayaan
               </div>
             </div>
-            <div className="text-gray-300 text-sm leading-relaxed">
+            <div className="text-gray-700 text-sm leading-relaxed">
               <p>Jl. Medan Merdeka Barat No.3</p>
               <p>RT.2/RW.3, Gambir, Kota Jakarta Pusat</p>
               <p>Daerah Khusus Ibukota Jakarta 10110</p>
@@ -111,7 +111,7 @@ const Footer = () => {
 
         {/* Copyright */}
           <div className="text-center">
-            <p className="text-gray-400 text-sm">
+            <p className="text-gray-700 text-sm">
               © {currentYear} SISMONEV PAUDHI. All rights reserved.
             </p>
         </div>
