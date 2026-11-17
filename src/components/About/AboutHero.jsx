@@ -2,7 +2,7 @@
 
 const AboutHero = ({
   title = "Apa itu PAUDHI?",
-  subtitle = "PAUDHI adalah Upaya pengembangan anak usia dini yang dilakukan untuk memenuhi kebutuhan esensial anak yang beragam dan saling terkait secara simultan, sistematis, dan terintegrasi..",
+  subtitle = "PAUDHI adalah Upaya pengembangan anak usia dini yang dilakukan untuk memenuhi kebutuhan esensial anak yang beragam dan saling terkait secara simultan, sistematis, dan terintegrasi.",
   showButtons = true,
   onWatchVideo = () => console.log("Tonton video"),
   onDownloadGuide = () => console.log("Unduh panduan"),
