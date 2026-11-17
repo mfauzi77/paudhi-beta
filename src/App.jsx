@@ -1,5 +1,5 @@
 ﻿// src/App.jsx
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import CeriaLoader from "./modules/ceria/components/shared/CeriaLoader";
 import { AnimatePresence } from "framer-motion";
 import "./App.css";
@@ -9,7 +9,9 @@ import {
   Route,
   Navigate,
   useLocation,
+  Link,
 } from "react-router-dom";
+import { ArrowRight, Building2, ChevronDown, HeartPulse, Users } from "lucide-react";
 
 // Komponen utama (tetap di-import langsung untuk performance)
 import Navigation from "./components/Navigation";
@@ -48,16 +50,68 @@ import ServiceWorkerUpdate from "./components/ServiceWorkerUpdate";
 const EssentialServicesPage = lazy(() => import("./pages/EssentialServicesPage"));
 const NewsDetailPage = lazy(() => import("./pages/NewsDetailPage"));
 const PetaDaycarePage = lazy(() => import("./pages/PetaDaycarePage"));
+const UserCategoryDashboard = lazy(() => import("./pages/UserCategoryDashboard"));
+
+const userCategories = [
+  {
+    path: "/dashboard/masyarakat",
+    title: "Masyarakat Umum / Orang Tua",
+    description: "Akses informasi dan layanan untuk mendukung tumbuh kembang, kesehatan, pendidikan, pengasuhan, dan perlindungan anak usia dini.",
+    Icon: Users,
+  },
+  {
+    path: "/dashboard/tenaga",
+    title: "Tenaga Pendidik / Kesehatan",
+    description: "Akses pedoman, referensi, materi, dan dukungan dalam penyelenggaraan layanan Pengembangan Anak Usia Dini Holistik Integratif.",
+    Icon: HeartPulse,
+  },
+  {
+    path: "/dashboard/instansi",
+    title: "Instansi Pemerintah",
+    description: "Akses data, informasi, koordinasi, serta fasilitas monitoring dan evaluasi penyelenggaraan PAUDHI.",
+    Icon: Building2,
+  },
+];
 
 import PageMetadata from "./components/PageMetadata";
 import PageTransition from "./components/PageTransition";
 import NotFoundPage from "./pages/NotFoundPage";
 
 function HomePage() {
+  const [showUserCategories, setShowUserCategories] = useState(false);
+
   return (
     <PageTransition>
       <main id="main-content">
       <HeroSection />
+      <section aria-labelledby="audience-title" className="bg-white px-4 py-6 sm:px-6 sm:py-8 lg:px-8">
+        <div className="mx-auto max-w-5xl">
+          <div className="text-center">
+            <p className="mb-2 text-sm font-semibold uppercase tracking-wide text-blue-700">Pusat Layanan Terpadu Satu Pintu PAUDHI</p>
+            <h2 id="audience-title" className="text-xl font-bold text-gray-900 sm:text-2xl">Anda mengakses layanan sebagai siapa?</h2>
+            <button
+              type="button"
+              aria-expanded={showUserCategories}
+              aria-controls="user-category-options"
+              onClick={() => setShowUserCategories((visible) => !visible)}
+              className="mt-3 inline-flex items-center gap-2 rounded-lg bg-blue-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2"
+            >
+              {showUserCategories ? "Tutup pilihan" : "Pilih kategori pengguna"}
+              <ChevronDown size={17} className={`transition-transform ${showUserCategories ? "rotate-180" : ""}`} />
+            </button>
+          </div>
+          {showUserCategories && <div id="user-category-options" className="mt-6 grid grid-cols-1 gap-4 md:grid-cols-3">
+            {userCategories.map(({ path, title, description, Icon }) => (
+              <Link key={path} to={path} className="group flex h-full flex-col rounded-xl border border-gray-200 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:border-blue-300 hover:shadow-md focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">
+                <span className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100 text-blue-700"><Icon size={21} /></span>
+                <h3 className="text-base font-semibold text-gray-900">{title}</h3>
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-gray-600">{description}</p>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm font-semibold text-blue-700">Pilih kategori <ArrowRight size={17} className="transition-transform group-hover:translate-x-1" /></span>
+              </Link>
+            ))}
+          </div>}
+        </div>
+      </section>
       <ServicesSection />
       <StatsSection />
       <NewsSection />
@@ -91,6 +145,11 @@ function AppWrapper() {
       <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<HomePage />} />
+          <Route path="/dashboard/:category" element={
+            <Suspense fallback={<LoadingSpinner size="lg" text="Memuat dashboard..." />}>
+              <UserCategoryDashboard />
+            </Suspense>
+          } />
           <Route path="/education" element={
             <Suspense fallback={<LoadingSpinner size="lg" text="Memuat pembelajaran..." />}>
               <main className="pt-20"><EducationSection /></main>
