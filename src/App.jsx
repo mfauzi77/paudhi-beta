@@ -101,7 +101,10 @@ function AppWrapper() {
             path="/peta-daycare"
             element={
               <Suspense fallback={<LoadingSpinner size="lg" text="Memuat peta daycare..." />}>
-                <PetaDaycarePage />
+                <>
+                  <PetaDaycarePage />
+                  <Footer />
+                </>
               </Suspense>
             }
           />
@@ -272,7 +275,7 @@ function AppWrapper() {
       </AnimatePresence>
 
       {/* ⛔ Sembunyikan chatbot di halaman admin dan ceria */}
-      {!location.pathname.startsWith("/admin") && !location.pathname.startsWith("/ceria") && (
+      {!location.pathname.startsWith("/admin") && !location.pathname.startsWith("/ceria") && location.pathname !== "/login" && (
         <Suspense fallback={null}>
           <Chatbot />
         </Suspense>

@@ -5,7 +5,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-pink-700 text-white py-5" role="contentinfo">
+    <footer className="bg-gradient-to-r from-sky-200 via-blue-50 to-emerald-50 text-black py-5" role="contentinfo">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Main Footer Content */}
@@ -14,20 +14,20 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="lg:col-span-1">
             <a href="/maknalogo" className="inline-flex items-center gap-3 mb-6">
-              <div className="w-12 h-12">
+              <div className="w-[3.6rem] h-[3.6rem]">
                 <img
                   src="/logo.png"
                   alt="Logo PAUDHI"
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-white text-base">Makna Logo PAUDHI</span>
+              <span className="text-black text-base">Makna Logo PAUDHI</span>
             </a>
           </div>
 
           {/* Navigasi */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-6">
+            <h3 className="text-black text-lg font-semibold mb-6">
               Navigasi
             </h3>
             <nav>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="https://asiksupport-stg.dto.kemkes.go.id/"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-black hover:text-black transition-colors duration-200"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -45,7 +45,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="https://api.whatsapp.com/send?phone=628111129129"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-black hover:text-black transition-colors duration-200"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -61,7 +61,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-6">
+            <h3 className="text-black text-lg font-semibold mb-6">
               Profil
             </h3>
             <nav>
@@ -69,7 +69,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="/about"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-black hover:text-black transition-colors duration-200"
                   >
                     Tentang
                   </a>
@@ -77,7 +77,7 @@ const Footer = () => {
                 <li>
                   <a 
                     href="/faq"
-                    className="text-gray-300 hover:text-white transition-colors duration-200"
+                    className="text-black hover:text-black transition-colors duration-200"
                   >
                     Tanya Jawab PAUDHI
                   </a>
@@ -92,16 +92,16 @@ const Footer = () => {
               <img
                 src={pmklogo}
                 alt="Logo Kementerian Koordinator Bidang Pembangunan Manusia dan Kebudayaan"
-                className="h-12 w-auto mb-4"
+                className="h-[3.6rem] w-auto mb-4"
               />
-              <div className="text-white font-semibold text-base mb-1">
+              <div className="text-black font-semibold text-base mb-1">
                 Kementerian Koordinator Bidang
               </div>
-              <div className="text-white font-semibold text-base mb-4">
+              <div className="text-black font-semibold text-base mb-4">
                 Pembangunan Manusia dan Kebudayaan
               </div>
             </div>
-            <div className="text-gray-300 text-sm leading-relaxed">
+            <div className="text-black text-sm leading-relaxed">
               <p>Jl. Medan Merdeka Barat No.3</p>
               <p>RT.2/RW.3, Gambir, Kota Jakarta Pusat</p>
               <p>Daerah Khusus Ibukota Jakarta 10110</p>
@@ -111,7 +111,7 @@ const Footer = () => {
 
         {/* Copyright */}
           <div className="text-center">
-            <p className="text-gray-400 text-sm">
+            <p className="text-black text-sm">
               © {currentYear} SISMONEV PAUDHI. All rights reserved.
             </p>
         </div>
